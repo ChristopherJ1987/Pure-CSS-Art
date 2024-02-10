@@ -1,0 +1,131 @@
+body {
+    background-color: #9ed2ec;
+    margin: 0;
+    padding: 0;
+}
+.myCanvas {
+    height: 510px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.snowman {
+    position: relative;
+    left: 5px;
+    top: 53px;
+}
+.face {
+    background-color: whitesmoke;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 110px;
+}
+.eyeL, .eyeR {
+    background-color: #000000;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+}
+.eyeL {
+    top: 40px;
+    left: 35px;
+}
+.eyeR {
+    top: 25px;
+    left: 75px;
+}
+.nose {
+    height: 0;
+    width: 0;
+    border-top: 30px solid #f7880f;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    position: relative;
+    top: 35px;
+    left: 57px;
+}
+.hat {
+    background-color: #2b303a;
+    height: 10px;
+    width: 120px;
+    position: relative;
+    bottom: 50px;
+    left: 15px;
+    border-radius: 4px;
+    transform: rotate(20deg);
+}
+.topHat {
+    height: 0;
+    width: 60px;
+    border-bottom: 43px solid #2b303a;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: relative;
+    bottom: 42px;
+    left: 24px;
+}
+.body {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    top: 90px;
+    left: 70px;
+}
+.button1, .button2, .button3 {
+    height: 15px;
+    width: 15px;
+    background-color: #2b303a;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.buttons {
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+.handL {
+    background-color: #84382a;
+    height: 5px;
+    width: 100px;
+    position: relative;
+    bottom: 68px;
+    transform: rotate(25deg);
+    right: 67px;
+}
+.s1 {
+    background-color: #84382a;
+    height: 5px;
+    width: 30px;
+    position: relative;
+    bottom: 10px;
+    transform: rotate(45deg);
+    left: 5px;
+}
+.handR {
+    background-color: #84382a;
+    height: 5px;
+    width: 100px;
+    position: relative;
+    transform: rotate(-25deg);
+    left: 168px;
+    bottom: 73px;
+}
+.s2 {
+    background-color: #84382a;
+    height: 5px;
+    width: 30px;
+    position: relative;
+    transform: rotate(-45deg);
+    bottom: 10px;
+    left: 65px;
+}
