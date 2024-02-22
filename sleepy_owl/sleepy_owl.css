@@ -21,6 +21,7 @@ body {
     top: 260px;
     left: 0;
     border-radius: 0 15px 15px 0;
+    z-index: 1;
 }
 .branch > div {
     background-color: #fc7753;
@@ -40,4 +41,23 @@ body {
     position: absolute;
     top: 125px;
     left: 100px;
+}
+.ear-l, .ear-r {
+    height: 0;
+    width: 0;
+    border-bottom: 33px solid #a6813b;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: relative;
+    z-index: -2;
+}
+.ear-l {
+    bottom: 10px;
+    left: 3px;
+    transform: rotate(-20deg);
+}
+.ear-r {
+    bottom: 42px;
+    left: 88px;
+    transform: rotate(20deg);
 }
