@@ -32,3 +32,12 @@ body {
     left: 250px;
     border-radius: 8px;
 }
+.owl {
+    background-color: #cfae69;
+    height: 156px;
+    width: 120px;
+    border-radius: 120px;
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}
