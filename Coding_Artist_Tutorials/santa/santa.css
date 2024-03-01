@@ -1,0 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.myCanvas {
+    background-color: #586c92;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
