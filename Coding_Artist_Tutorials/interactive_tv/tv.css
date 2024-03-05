@@ -6,7 +6,6 @@ body {
 .container {
     height: 500px;
     width: 450px;
-    border: 3px solid whitesmoke;
     position: absolute;
     margin: auto;
     top: 0;
@@ -32,6 +31,8 @@ input[type="checkbox"] {
     position: absolute;
     top: 100px;
     right: 15px;
+    outline: none;
+    cursor: pointer;
 }
 .speaker {
     position: absolute;
@@ -93,4 +94,45 @@ input[type="checkbox"] {
 }
 .stand2 {
     right: 45px;
+}
+input[type="checkbox"]:before {
+    content: "";
+    position: absolute;
+    background-color: #caffd0;
+    height: 140px;
+    width: 170px;
+    bottom: -42px;
+    right: 45px;
+    border-radius: 5px;
+    border: 10px solid #d52f31;
+    background-size: 125px 140px;
+    background-image: linear-gradient(
+        to left,
+        #db9dff 25px,
+        #9dc4ff 25px,
+        #9dc4ff 50px,
+        #fefd93 50px,
+        #fefd93 75px,
+        #fcc670 75px,
+        #fcc670 100px,
+        #ff9ea7 100px,
+        #ff9ea7 125px
+    );
+    animation: move 20s infinite linear;
+}
+@keyframes move {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+input:checked[type="checkbox"]:before {
+    background-size: 100% 100%;
+    animation: none;
+    background-image: linear-gradient(
+        -45deg,
+        transparent 150px,
+        rgba(255, 255, 255, 0.4) 150px,
+        rgba(255, 255, 255, 0.4) 180px,
+        transparent 180px
+    );
 }
