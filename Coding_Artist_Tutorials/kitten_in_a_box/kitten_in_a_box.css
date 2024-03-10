@@ -1,0 +1,16 @@
+body {
+    background-color: #c9acd1;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 500px;
+    width: 500px;
+    border: 5px solid whitesmoke;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
