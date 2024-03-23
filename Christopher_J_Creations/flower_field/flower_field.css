@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.sky {
+    border: 5px solid black;
+    height: 47%;
+    width: 100vw;
+    background-color: skyblue;
+}
+.field {
+    border: 5px solid black;
+    height: 53%;
+    width: 100vw;
+    background-color: green;
+}
+.flower {
+    border: 5px solid greenyellow;
+    position: relative;
+    height: 88px;
+    width: 10px;
+    top: 150px;
+    left: 250px;
+}
