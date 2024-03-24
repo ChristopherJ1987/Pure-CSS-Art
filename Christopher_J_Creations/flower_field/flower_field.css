@@ -27,3 +27,12 @@ body {
     top: 150px;
     left: 250px;
 }
+.petals {
+    position: relative;
+    background-color: blueviolet;
+    height: 75px;
+    width: 75px;
+    border-radius: 45% 45%;
+    top: -45px;
+    left: -37px;
+}
