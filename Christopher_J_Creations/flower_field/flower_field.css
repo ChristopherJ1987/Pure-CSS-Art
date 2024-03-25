@@ -27,7 +27,7 @@ body {
     top: 150px;
     left: 250px;
 }
-.petals {
+.outer_petals {
     position: relative;
     background-color: blueviolet;
     height: 75px;
@@ -35,4 +35,13 @@ body {
     border-radius: 45% 45%;
     top: -45px;
     left: -37px;
+}
+.inner_petals {
+    position: relative;
+    background-color: coral;
+    height: 45px;
+    width: 45px;
+    border-radius: 45% 45%;
+    top: 14px;
+    left: 15px;
 }
