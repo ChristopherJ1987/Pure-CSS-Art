@@ -67,3 +67,13 @@ body {
     top: 14px;
     left: 15px;
 }
+.inner_petals:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    top: 14px;
+    left: 12px;
+}
