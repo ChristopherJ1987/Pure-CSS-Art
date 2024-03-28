@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5d7ab;
+}
+.container {
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.bread {
+    width: 150px;
+    height: 40px;
+    background-color: #f59362;
+    border-radius: 40px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
+.bread:before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    background-color: #f5c493;
+    border-radius: 30px;
+    left: 10px;
+    top: 8px;
+}
+.bottom {
+    background-color: #f5c493;
+    width: 130px;
+    height: 95px;
+    border: 8px solid #f59362;
+    position: absolute;
+    top: 32px;
+    left: 9px;
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+}
+.bread:after {
+    content: "";
+    position: absolute;
+    background-color: #202020;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    top: 48px;
+    left: 55px;
+    box-shadow: 25px 0 #202020;
+}
+.bottom:before {
+    content: "";
+    position: absolute;
+    height: 22.5px;
+    width: 45px;
+    background-color: #ffffff;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 40px;
+    border-radius: 0 0 22.5px 22.5px;
+}
+.bottom:after {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #f59362;
+    top: 25px;
+    left: 20px;
+    border-radius: 50%;
+    box-shadow: -10px 10px #f59362,
+        0 20px #f59362,
+        65px 0 #f59362,
+        75px 10px #f59362,
+        65px 20px #f59362;
+}
+.leg {
+    position: absolute;
+    height: 55px;
+    width: 4px;
+    background-color: #202020;
+    top: 127px;
+    left: 60px;
+    box-shadow: 25px 0 #202020;
+}
+.leg:before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 15px;
+    background-color: #202020;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 36px 0 #202020;
+}
