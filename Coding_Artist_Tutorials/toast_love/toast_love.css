@@ -9,7 +9,6 @@ body {
 .container {
     height: 350px;
     width: 350px;
-    border: 1px solid black;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -200,4 +199,31 @@ body {
     left: -3px;
     bottom: 0;
     box-shadow: -35px -38px #202020;
+}
+.fa-heart {
+    color: #f53162;
+    font-size: 20px;
+    position: absolute;
+    left: 150px;
+    top: 160px;
+    animation: heartbeat 5s infinite;
+}
+@keyframes heartbeat {
+    60% {
+        font-size: 50px;
+        transform: translateY(-160px);
+    }
+    100% {
+        font-size: 50px;
+        transform: translateY(-175px);
+    }
+}
+h3 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #f53162;
+    letter-spacing: 4px;
 }
