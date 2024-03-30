@@ -63,7 +63,7 @@ body {
     width: 150px;
     background-image: linear-gradient(to bottom left, coral, darkred);
     position: absolute;
-    border-radius: 44% 4% 44% 44% / 44% 44% 4% 44%;
+    border-radius: 44% 7% 7% 44% / 44% 33% 33% 44%;
     transform: rotate(-90deg);
     top: 4rem;
     left: 9rem;
