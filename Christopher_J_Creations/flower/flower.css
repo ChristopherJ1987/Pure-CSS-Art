@@ -7,7 +7,7 @@ body {
     background-color: cornsilk;
 }
 .info {
-    padding: 4rem;
+    padding: 2rem;
     text-align: center;
 }
 .container {
@@ -56,5 +56,16 @@ body {
     left: 224px;
     border-radius: 100% 0;
     background-image: linear-gradient(to left, rgb(150, 200, 120), darkolivegreen);
+    z-index: 6;
+}
+.flower-petals {
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(to bottom left, coral, darkred);
+    position: absolute;
+    border-radius: 44% 4% 44% 44% / 44% 44% 4% 44%;
+    transform: rotate(-90deg);
+    top: 4rem;
+    left: 9rem;
     z-index: 6;
 }
