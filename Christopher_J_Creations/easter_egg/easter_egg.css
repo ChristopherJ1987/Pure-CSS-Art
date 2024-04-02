@@ -22,5 +22,14 @@ body {
     top: 13%;
     left: 20%;
     background-color: aliceblue;
-    border-radius: 50%;
+    border-top-left-radius: 50% 60%;
+    border-top-right-radius: 50% 60%;
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+    background: repeating-linear-gradient(
+        45deg,
+        pink,
+        yellow 20px,
+        cadetblue 20px,
+        lightblue 50px);
 }
