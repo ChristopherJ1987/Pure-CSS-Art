@@ -12,3 +12,91 @@ body {
     top: 50%;
     left: 50%;
 }
+.pineapple {
+    background-color: #ffaa00;
+    height: 180px;
+    width: 140px;
+    border-radius: 65px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: repeating-linear-gradient(
+        135deg,
+        transparent 0,
+        transparent 40px,
+        #ff9700 40px,
+        #ff9700 52px
+    ),
+    repeating-linear-gradient(
+        45deg,
+        transparent 0,
+        transparent 40px,
+        #ff9700 40px,
+        #ff9700 52px);
+        background-size: 200% 200%;
+        background-position: 0 17px;
+}
+.pineapple:before, .pineapple:after {
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 32px;
+    background-color: #ffaa00;
+    top: 25px;
+    z-index: -1;
+    transform-origin: bottom;
+    border-radius: 25px;
+}
+.pineapple:before {
+    left: 10px;
+    transform: rotate(-50deg);
+    animation: hand-l 0.5s infinite;
+}
+@keyframes hand-l {
+    50% {
+        transform: rotate(-42deg);
+    }
+}
+.pineapple:after {
+    right: 10px;
+    transform: rotate(50deg);
+    animation: hand-r 0.5s infinite;
+}
+@keyframes hand-r {
+    50% {
+        transform: rotate(42deg);
+    }
+}
+.leaf {
+    background-color: #498725;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px 0;
+    transform: rotate(135deg);
+    position: absolute;
+    top: -65px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.leaf:before, .leaf:after {
+    content: "";
+    position: absolute;
+    background-color: #3f6b15;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px 0;
+    transform-origin: right;
+    top: -5px;
+}
+.leaf:before {
+    transform: rotate(40deg);
+    right: 20px;
+}
+.leaf:after {
+    transform: rotate(-40deg);
+    left: 20px;
+}
