@@ -84,3 +84,22 @@ body {
     top: 15px;
     left: 10px;
 }
+.pipe:after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 4px;
+    background-color: #f8d02e;
+    bottom: 16px;
+}
+.light {
+    height: 5px;
+    width: 0;
+    border-left: 115px solid #ffffff;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    position: relative;
+    right: 115px;
+    bottom: 28px;
+    opacity: 0.15;
+}
