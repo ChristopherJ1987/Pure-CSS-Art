@@ -167,3 +167,76 @@ body {
         transform: rotateX(180deg);
     }
 }
+.bubble {
+    background-color: #ffffff;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    bottom: 35px;
+    opacity: 0.4;
+}
+.bubble-1 {
+    animation: bubble-move-1 3s 2s infinite;
+}
+@keyframes bubble-move-1 {
+    100% {
+        transform: translate(50px, -20px);
+        opacity: 0;
+    }
+}
+.bubble-2 {
+    animation: bubble-move-2 3s 0.5s infinite;
+}
+@keyframes bubble-move-2 {
+    100% {
+        transform: translate(30px, -20px);
+        opacity: 0;
+    }
+}
+.bubble-3 {
+    animation: bubble-move-3 4s 1s infinite;
+}
+@keyframes bubble-move-3 {
+    100% {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+}
+.wave {
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+.wave1, .wave2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5000px;
+    height: 100px;
+    background-size: 100px 180px;
+    animation: wave-move 20s linear infinite;
+}
+.wave1 {
+    background-image: radial-gradient(
+        circle at 50px 120px,
+        rgba(0, 0, 0, 0.2) 60px,
+        #000065 60px
+    );
+}
+.wave2 {
+    background-image: radial-gradient(
+        circle at 50px 85px,
+        rgba(0, 0, 0, 0.2) 60px,
+        #000065 60px
+    );
+    background-position: 55px 0;
+}
+@keyframes wave-move {
+    100% {
+        right: -100%;
+    }
+}
