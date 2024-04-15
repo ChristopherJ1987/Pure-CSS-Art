@@ -15,3 +15,14 @@ body {
     top: 50%;
     left: 50%;
 }
+.face {
+    background-color: #8ebc00;
+    height: 120px;
+    width: 160px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
