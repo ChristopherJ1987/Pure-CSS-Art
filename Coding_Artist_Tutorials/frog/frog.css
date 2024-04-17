@@ -36,3 +36,13 @@ body {
     bottom: 0;
     left: 20px;
 }
+.face:after {
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 8px;
+    background-color: #477a26;
+    border-radius: 5px;
+    left: 10px;
+    top: 55px;
+}
