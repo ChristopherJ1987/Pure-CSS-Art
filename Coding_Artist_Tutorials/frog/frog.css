@@ -46,3 +46,18 @@ body {
     left: 10px;
     top: 55px;
 }
+.eyes, .eyes:before {
+    position: absolute;
+    background-color: #234106;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #ffffff, 0 0 0 18px #8ebc00;
+}
+.eyes {
+    left: 35px;
+}
+.eyes:before {
+    content: "";
+    left: 66px;
+}
