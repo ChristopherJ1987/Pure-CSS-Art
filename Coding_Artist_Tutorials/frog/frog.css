@@ -71,3 +71,12 @@ body {
     left: 165px;
     top: 230px;
 }
+.body:before, .body:after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 25px;
+    background-color: #8ebc00;
+    top: 40px;
+    transform: rotate(90deg);
+}
