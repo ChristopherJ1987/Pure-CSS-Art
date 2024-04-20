@@ -61,3 +61,13 @@ body {
     content: "";
     left: 66px;
 }
+.body {
+    background-color: #c1d218;
+    height: 60px;
+    width: 70px;
+    border-radius: 70px 70px 0 0;
+    box-shadow: 0 -20px 0 20px #8ebc00;
+    position: absolute;
+    left: 165px;
+    top: 230px;
+}
