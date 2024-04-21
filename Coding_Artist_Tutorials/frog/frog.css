@@ -80,3 +80,11 @@ body {
     top: 40px;
     transform: rotate(90deg);
 }
+.body:before {
+    border-radius: 50% 0;
+    left: -12.4px;
+}
+.body:after {
+    border-radius: 0 50%;
+    right: -12.4px;
+}
