@@ -88,3 +88,36 @@ body {
     border-radius: 0 50%;
     right: -12.4px;
 }
+.leg-l, .leg-r {
+    position: absolute;
+    height: 85px;
+    width: 50px;
+    background-color: #477a26;
+    border-radius: 50%;
+    bottom: 100px;
+}
+.leg-r {
+    transform: rotate(30deg);
+    left: 230px;
+}
+.leg-l {
+    transform: rotate(-30deg);
+    right: 230px;
+}
+.leg-l:before, .leg-r:before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    background-color: #477a26;
+    border-radius: 30px 30px 0 0;
+    bottom: 10px;
+}
+.leg-l:before {
+    transform: rotate(30deg);
+    right: 15px;
+}
+.leg-r:before {
+    transform: rotate(-30deg);
+    left: 15px;
+}
