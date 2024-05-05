@@ -13,3 +13,12 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
+.mountains {
+    height: 12.5em;
+    width: 7.5em;
+    background-color: #144569;
+    position: absolute;
+    left: 1.9em;
+    bottom: -0.62em;
+    transform: rotate(-50deg);
+}
