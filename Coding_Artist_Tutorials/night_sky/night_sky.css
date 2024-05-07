@@ -25,4 +25,9 @@ body {
 .mountains:before {
     content: "";
     height: 5em;
+    width: 8.75em;
+    background-color: #144569;
+    left: 3.12em;
+    bottom: 1.25em;
+    transform: rotate(-90deg);
 }
