@@ -31,3 +31,13 @@ body {
     bottom: 1.25em;
     transform: rotate(-90deg);
 }
+.mountains:after {
+    content: "";
+    position: absolute;
+    height: 6.25em;
+    width: 11em;
+    background-color: #144569;
+    left: 4.4em;
+    bottom: -6.7em;
+    transform: rotate(20deg);
+}
