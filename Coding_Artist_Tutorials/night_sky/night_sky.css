@@ -41,3 +41,11 @@ body {
     bottom: -6.7em;
     transform: rotate(20deg);
 }
+.land {
+    height: 5em;
+    width: 28.12em;
+    background-color: #041524;
+    position: absolute;
+    bottom: -0.31em;
+    transform: rotate(5deg);
+}
