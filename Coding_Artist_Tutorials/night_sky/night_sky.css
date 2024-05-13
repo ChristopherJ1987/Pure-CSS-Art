@@ -71,3 +71,13 @@ body {
     top: 0.5em;
     left: 0.37em;
 }
+.moon:after {
+    content: "";
+    position: absolute;
+    background-color: #ebefe7;
+    height: 0.43em;
+    width: 0.43em;
+    border-radius: 50%;
+    top: 1.25em;
+    left: 0.75em;
+}
