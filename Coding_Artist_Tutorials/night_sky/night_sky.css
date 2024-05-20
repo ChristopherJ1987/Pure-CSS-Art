@@ -111,3 +111,14 @@ body {
     right: -0.2em;
     top: 0.06em;
 }
+.light {
+    height: 0.25em;
+    width: 0.25em;
+    background-color: #8daf76;
+    position: absolute;
+    top: 0.75em;
+    left: 0.5em;
+    border-radius: 50%;
+    box-shadow: 0 0 0.6em 0.12em rgba(141, 175, 118, 0.3),
+        0 0 0.06em 0.25em rgba(141, 175, 118, 0.2);
+}
