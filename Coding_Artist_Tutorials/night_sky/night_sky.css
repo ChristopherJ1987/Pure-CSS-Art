@@ -122,3 +122,13 @@ body {
     box-shadow: 0 0 0.6em 0.12em rgba(141, 175, 118, 0.3),
         0 0 0.06em 0.25em rgba(141, 175, 118, 0.2);
 }
+.light:before {
+    content: "";
+    position: absolute;
+    background-color: #0f304f;
+    height: 0.5em;
+    width: 0.5em;
+    bottom: -1.25em;
+    left: -0.12em;
+    border-radius: 0.25em 0.25em 0 0;
+}
