@@ -132,3 +132,33 @@ body {
     left: -0.12em;
     border-radius: 0.25em 0.25em 0 0;
 }
+.blades {
+    height: 3.75em;
+    width: 3.75em;
+    position: absolute;
+    bottom: -1.9em;
+    left: -1.25em;
+    animation: spin 5s infinite linear;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+.blades:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0.5em;
+    background-color: #041524;
+    left: 1.62em;
+}
+.blades:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0.5em;
+    background-color: #041524;
+    left: 1.62em;
+    transform: rotate(90deg);
+}
