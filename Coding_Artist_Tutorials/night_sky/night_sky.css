@@ -169,3 +169,12 @@ body {
     position: absolute;
     border-radius: 50%;
 }
+.star-1 {
+    top: 5em;
+    left: 18.75em;
+}
+.star-1:before {
+    content: "";
+    top: 1.9em;
+    left: -16.4em;
+}
