@@ -162,3 +162,10 @@ body {
     left: 1.62em;
     transform: rotate(90deg);
 }
+.star, .star:before, .star:after {
+    height: 0.18em;
+    width: 0.18em;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+}
