@@ -197,3 +197,12 @@ body {
     left: 7.5em;
     top: 6.25em;
 }
+.star-3 {
+    left: 15em;
+    top: 1.9em;
+}
+.star-3:before {
+    content: "";
+    top: 5em;
+    left: -0.93em;
+}
