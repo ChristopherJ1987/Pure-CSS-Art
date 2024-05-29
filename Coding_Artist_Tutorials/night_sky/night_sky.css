@@ -237,3 +237,22 @@ body {
         transform: rotate(-30deg) translate(-34em, 0);
     }
 }
+.tree {
+    height: 0;
+    width: 0;
+    border-bottom: 2em solid #041524;
+    border-left: 0.37em solid transparent;
+    border-right: 0.37em solid transparent;
+    position: absolute;
+    bottom: 4.87em;
+    left: 3.12em;
+}
+.tree:before {
+    content: "";
+    position: absolute;
+    border-bottom: 1.56em solid #041524;
+    border-left: 0.37em solid transparent;
+    border-right: 0.37em solid transparent;
+    bottom: -2.18em;
+    left: 0.18em;
+}
