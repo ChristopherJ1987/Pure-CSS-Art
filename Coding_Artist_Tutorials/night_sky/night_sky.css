@@ -256,3 +256,8 @@ body {
     bottom: -2.18em;
     left: 0.18em;
 }
+@media screen and (min-width: 500px) {
+    .container {
+        font-size: 22px;
+    }
+}
