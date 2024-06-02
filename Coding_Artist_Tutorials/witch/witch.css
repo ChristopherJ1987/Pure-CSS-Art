@@ -4,5 +4,13 @@ body {
     background-color: #723457;
 }
 .container {
-    
+    position: absolute;
+    border: 1px solid whitesmoke;
+    width: 330px;
+    height: 480px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
