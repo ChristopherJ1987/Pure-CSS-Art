@@ -44,3 +44,15 @@ body {
     bottom: 95px;
     left: 28px;
 }
+.hat:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 40px solid #0b081b;
+    position: absolute;
+    right: 45px;
+    bottom: 83px;
+    transform: rotate(20deg);
+}
