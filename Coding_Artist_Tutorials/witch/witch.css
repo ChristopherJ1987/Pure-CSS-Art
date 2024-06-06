@@ -56,3 +56,11 @@ body {
     bottom: 83px;
     transform: rotate(20deg);
 }
+.face {
+    background-color: #ffcb9b;
+    height: 60px;
+    width: 80px;
+    border-radius: 0 0 40px 40px;
+    z-index: 1;
+    position: relative;
+}
