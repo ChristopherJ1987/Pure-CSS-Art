@@ -64,3 +64,15 @@ body {
     z-index: 1;
     position: relative;
 }
+.eye {
+    background-color: #6155bd;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    position: relative;
+    top: 18px;
+    left: 15.2px;
+    box-shadow: 0 -3px 0 5px #1f1a43,
+        37px 0 0 0 #6155bd,
+        37px -3px 0 5px #1f1a43;
+}
