@@ -84,3 +84,13 @@ body {
     left: 20px;
     top: 30px;
 }
+.mouth:before, .mouth:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 7px solid #ffffff;
+    top: 2px;
+}
