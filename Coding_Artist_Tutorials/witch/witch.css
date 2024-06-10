@@ -76,3 +76,11 @@ body {
         37px 0 0 0 #6155bd,
         37px -3px 0 5px #1f1a43;
 }
+.mouth {
+    height: 2px;
+    width: 40px;
+    background-color: #000000;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
