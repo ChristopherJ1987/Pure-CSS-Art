@@ -94,3 +94,9 @@ body {
     border-top: 7px solid #ffffff;
     top: 2px;
 }
+.mouth:before {
+    left: 4px;
+}
+.mouth:after {
+    right: 4px;
+}
