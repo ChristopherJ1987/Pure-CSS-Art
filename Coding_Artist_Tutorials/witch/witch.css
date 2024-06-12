@@ -100,3 +100,12 @@ body {
 .mouth:after {
     right: 4px;
 }
+.cloak {
+    height: 0;
+    width: 80px;
+    border-bottom: 180px solid #0e0c29;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: relative;
+    right: 20px;
+}
