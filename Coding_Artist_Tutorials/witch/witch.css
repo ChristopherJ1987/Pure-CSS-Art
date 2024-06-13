@@ -109,3 +109,19 @@ body {
     position: relative;
     right: 20px;
 }
+.hand-l {
+    background-color: #0e0c29;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    right: 65px;
+    bottom: 0;
+    transform: rotate(20deg);
+    transform-origin: right;
+    animation:  wave 2s infinite;
+}
+@keyframes wave {
+    50% {
+        transform: rotate(5deg);
+    }
+}
