@@ -118,10 +118,20 @@ body {
     bottom: 0;
     transform: rotate(20deg);
     transform-origin: right;
-    animation:  wave 2s infinite;
+    /* animation:  wave 2s infinite; */
 }
 @keyframes wave {
     50% {
         transform: rotate(5deg);
     }
+}
+.hand-l:before {
+    content: "";
+    position: absolute;
+    background-color: #ffcb9b;
+    height: 25px;
+    width: 20px;
+    right: 70px;
+    top: 2px;
+    border-radius: 10px 0 0 10px;
 }
