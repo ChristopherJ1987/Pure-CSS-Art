@@ -154,3 +154,12 @@ body {
     top: 10px;
     right: 71px;
 }
+.hand-r {
+    background-color: #0e0c29;
+    height: 80px;
+    width: 30px;
+    position: absolute;
+    left: 90px;
+    bottom: 98px;
+    transform: rotate(-25deg);
+}
