@@ -118,7 +118,7 @@ body {
     bottom: 0;
     transform: rotate(20deg);
     transform-origin: right;
-    /* animation:  wave 2s infinite; */
+    animation:  wave 2s infinite; 
 }
 @keyframes wave {
     50% {
@@ -172,4 +172,20 @@ body {
     border-radius: 0 0 15px 15px;
     left: 10px;
     top: 80px;
+}
+.stick2 {
+    background-color: #b35900;
+    height: 200px;
+    width: 18px;
+    border-radius: 25px;
+    transform: rotate(23deg);
+    position: relative;
+    top: 220px;
+    left: 210px;
+    animation:  mix 4s infinite;
+}
+@keyframes mix {
+    50% {
+        transform: translateX(-100px) rotate(23deg);
+    }
 }
