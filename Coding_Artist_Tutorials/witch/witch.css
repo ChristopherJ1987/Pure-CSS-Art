@@ -205,3 +205,19 @@ body {
         transform: translateY(-95px);
     }
 }
+.bubble-2 {
+    background-color: #29a329;
+    height: 20px;
+    width: 20px;
+    opacity: 0.6;
+    border-radius: 50%;
+    position: relative;
+    top: 130px;
+    left: 210px;
+    animation: move-up-2 3.2s 2.5s infinite;
+}
+@keyframes move-up-2 {
+    100% {
+        transform: translateY(-90px);
+    }
+}
