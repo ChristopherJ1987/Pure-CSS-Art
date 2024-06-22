@@ -221,3 +221,12 @@ body {
         transform: translateY(-90px);
     }
 }
+.cauldron {
+    background-color: #222222;
+    height: 150px;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    border-radius: 100px;
+}
