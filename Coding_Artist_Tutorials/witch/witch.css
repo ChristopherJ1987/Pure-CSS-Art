@@ -238,3 +238,14 @@ body {
     width: 100%;
     border-radius: 50px;
 }
+.handle {
+    background-color: transparent;
+    height: 40px;
+    width: 240px;
+    border: 7px solid #222222;
+    position: absolute;
+    border-radius: 40px;
+    margin: auto;
+    left: -27px;
+    top: 55px;
+}
