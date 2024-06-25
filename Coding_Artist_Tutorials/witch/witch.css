@@ -249,3 +249,11 @@ body {
     left: -27px;
     top: 55px;
 }
+.stand, .stand:before {
+    height: 0;
+    width: 5px;
+    border-top: 15px solid #222222;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+}
