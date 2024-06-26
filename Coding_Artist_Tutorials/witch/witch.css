@@ -257,3 +257,15 @@ body {
     border-right: 6px solid transparent;
     position: absolute;
 }
+.stand {
+    bottom: -10px;
+    transform: rotate(20deg);
+    left: 40px;
+}
+.stand:before {
+    content: "";
+    position: absolute;
+    bottom: 35px;
+    left: 90px;
+    transform: rotate(-40deg);
+}
