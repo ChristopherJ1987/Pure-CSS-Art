@@ -269,3 +269,12 @@ body {
     left: 90px;
     transform: rotate(-40deg);
 }
+.potion {
+    background-color: #29a329;
+    height: 70px;
+    width: 20px;
+    border-radius: 0 0 50px 50px;
+    position: relative;
+    bottom: 0;
+    left: 120px;
+}
