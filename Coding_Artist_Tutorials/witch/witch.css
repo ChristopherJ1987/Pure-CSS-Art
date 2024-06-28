@@ -278,3 +278,12 @@ body {
     bottom: 0;
     left: 120px;
 }
+.potion:before {
+    content: "";
+    position: absolute;
+    height: 35px;
+    background-color: #29a329;
+    width: 15px;
+    left: 30px;
+    border-radius: 0 0 30px 30px;
+}
