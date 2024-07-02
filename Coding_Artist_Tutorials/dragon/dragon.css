@@ -12,3 +12,14 @@ body {
     left: 50%;
     top: 50%;
 }
+.face {
+    position: absolute;
+    background-color: #c42754;
+    height: 6.87em;
+    width: 5.31em;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 3.12em;
+    border-radius: 5.31em 5.31em 0 0;
+}
