@@ -23,3 +23,13 @@ body {
     top: 3.12em;
     border-radius: 5.31em 5.31em 0 0;
 }
+.face:before {
+    position: absolute;
+    content: "";
+    background-color: #8c1436;
+    height: 3.12em;
+    width: 100%;
+    top: 5.62em;
+    border-radius: 5em;
+    z-index: -1;
+}
