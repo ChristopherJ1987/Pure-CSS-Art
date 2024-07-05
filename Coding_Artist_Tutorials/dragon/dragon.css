@@ -33,3 +33,13 @@ body {
     border-radius: 5em;
     z-index: -1;
 }
+.face:after {
+    position: absolute;
+    content: "";
+    background-color: #ee3466;
+    width: 6.56em;
+    height: 4.68em;
+    top: 3.43em;
+    left: -0.62em;
+    border-radius: 4em;
+}
