@@ -43,3 +43,13 @@ body {
     left: -0.62em;
     border-radius: 4em;
 }
+.eye {
+    position: absolute;
+    background-color: #262626;
+    height: 0.62em;
+    width: 0.62em;
+    border-radius: 50%;
+    top: 1.87em;
+    left: 1.12em;
+    box-shadow: 2.5em 0 #262626;
+}
