@@ -53,3 +53,9 @@ body {
     left: 1.12em;
     box-shadow: 2.5em 0 #262626;
 }
+.nostril, .nostril:after {
+    position: absolute;
+    background-color: #8c1436;
+    height: 1em;
+    width: 1em;
+}
