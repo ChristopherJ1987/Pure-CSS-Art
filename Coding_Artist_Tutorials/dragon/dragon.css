@@ -58,4 +58,15 @@ body {
     background-color: #8c1436;
     height: 1em;
     width: 1em;
+    border-radius: 50%;
+    border: 0.62em solid #ee3466;
+}
+.nostril {
+    top: 2.81em;
+    left: -0.93em;
+}
+.nostril:after {
+    content: "";
+    top: -0.62em;
+    left: 4.25em;
 }
