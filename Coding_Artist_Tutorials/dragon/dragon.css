@@ -70,3 +70,11 @@ body {
     top: -0.62em;
     left: 4.25em;
 }
+.ear, .ear:before {
+    position: absolute;
+    background-color: #8c1436;
+    height: 3.12em;
+    width: 0.68em;
+    border-radius: 1.37em;
+    border: 0.56em solid #c42754;
+}
