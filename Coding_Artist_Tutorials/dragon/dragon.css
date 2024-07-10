@@ -78,3 +78,15 @@ body {
     border-radius: 1.37em;
     border: 0.56em solid #c42754;
 }
+.ear {
+    z-index: -1;
+    top: -1.87em;
+    left: -0.93em;
+    transform: rotate(-40deg);
+}
+.ear:before {
+    content: "";
+    left: 3.75em;
+    top: 3em;
+    transform: rotate(80deg);
+}
