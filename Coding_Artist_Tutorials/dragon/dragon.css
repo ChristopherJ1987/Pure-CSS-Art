@@ -90,3 +90,12 @@ body {
     top: 3em;
     transform: rotate(80deg);
 }
+.horn {
+    position: absolute;
+    background-color: #fca01b;
+    height: 4.25em;
+    width: 1.25em;
+    z-index: -1;
+    top: -2.81em;
+    border-radius: 1.25em;
+}
