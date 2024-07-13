@@ -105,3 +105,20 @@ body {
 .horn-r {
     left: 3.43em;
 }
+.horn-l:before, .horn-r:before {
+    position: absolute;
+    content: "";
+    background-color: #e76a12;
+    height: 0.25em;
+    width: 70%;
+    border-radius: 0.2em;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0.62em;
+    box-shadow: 0 0.5em #e76a12,
+        0 1em #e76a12,
+        0 1.5em #e76a12,
+        0 2em #e76a12,
+        0 2.5em #e76a12;
+}
