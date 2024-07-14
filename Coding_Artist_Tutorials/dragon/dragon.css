@@ -122,3 +122,14 @@ body {
         0 2em #e76a12,
         0 2.5em #e76a12;
 }
+.body {
+    position: absolute;
+    width: 2.93em;
+    height: 5.62em;
+    background-color: #c42754;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 11.81em;
+    z-index: -2;
+}
