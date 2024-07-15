@@ -133,3 +133,12 @@ body {
     top: 11.81em;
     z-index: -2;
 }
+.stomach {
+    height: 8.75em;
+    width: 8.75em;
+    background-color: #c42754;
+    border-radius: 50%;
+    position: relative;
+    top: 3.12em;
+    right: 3em;
+}
