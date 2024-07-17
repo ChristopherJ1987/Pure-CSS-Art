@@ -152,3 +152,20 @@ body {
     top: 4.37em;
     left: 2.5em;
 }
+.body:after {
+    content: "";
+    position: absolute;
+    background-color: #8c1436;
+    height: 0.5em;
+    width: 70%;
+    border-radius: 0.5em;
+    top: 0.62em;
+    margin: auto;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0.9em #8c1436,
+        0 1.8em #8c1436,
+        0 2.7em #8c1436,
+        0 3.6em #8c1436,
+        0 5.4em #8c1436;
+}
