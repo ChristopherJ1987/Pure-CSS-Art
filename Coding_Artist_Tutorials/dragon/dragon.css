@@ -169,3 +169,19 @@ body {
         0 3.6em #8c1436,
         0 5.4em #8c1436;
 }
+.wing {
+    height: 7.5em;
+    width: 15em;
+    background-color: #0e3441;
+    border-radius: 12.5em 12.5em 0 0;
+    position: absolute;
+    top: 12.5em;
+    z-index: -3;
+}
+.wing-l {
+    transform: rotate(25deg);
+}
+.wing-r {
+    left: 15em;
+    transform: rotateY(-180deg), rotate(25deg);
+}
