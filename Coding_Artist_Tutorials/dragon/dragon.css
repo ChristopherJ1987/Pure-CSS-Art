@@ -179,6 +179,7 @@ body {
     z-index: -3;
 }
 .wing-l {
+    left: 1.25em;
     transform: rotate(25deg);
 }
 .wing-r {
