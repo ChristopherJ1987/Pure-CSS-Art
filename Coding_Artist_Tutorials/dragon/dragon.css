@@ -184,13 +184,21 @@ body {
 }
 .wing-r {
     left: 15em;
-    transform: rotateY(-180deg), rotate(25deg);
+    transform: rotateY(-180deg) rotate(25deg);
 }
 .wing-l:before, .wing-r:before, .wing-l:after, .wing-r:after {
     content: "";
     position: absolute;
-    background-color: orange;
+    background-color: #ffd65a;
     height: 2.18em;
     width: 4.37em;
     border-radius: 4.37em 4.37em 0 0;
+}
+.wing-l:before, .wing-r:before {
+    bottom: -0.1em;
+    left: 0;
+}
+.wing-l:after, .wing-r:after {
+    bottom: -0.1em;
+    left: 4.37em;
 }
