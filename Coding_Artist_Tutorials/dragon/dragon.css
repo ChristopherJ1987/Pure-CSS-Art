@@ -202,3 +202,12 @@ body {
     bottom: -0.1em;
     left: 4.37em;
 }
+.arm {
+    background-color: #8c1436;
+    height: 5.62em;
+    width: 2.92em;
+    border-radius: 3.12em;
+    position: absolute;
+    z-index: -3;
+    top: 14.37em;
+}
