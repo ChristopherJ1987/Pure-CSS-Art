@@ -211,3 +211,34 @@ body {
     z-index: -3;
     top: 14.37em;
 }
+.arm-l {
+    transform: rotate(45deg);
+    left: 9.06em;
+}
+.arm-r {
+    transform: rotate(-45deg);
+    left: 19.06em;
+}
+.forearm {
+    position: absolute;
+    height: 2.81em;
+    width: 6.25em;
+    background-color: #ee3466;
+    border-radius: 5.62em;
+    top: 17.5em;
+}
+.forearm-l {
+    left: 7.37em;
+}
+.forearm-r {
+    transform: rotate(180deg);
+    left: 17.5em;
+}
+.forearm-l:after, .forearm-r:after {
+    position: absolute;
+    content: "";
+    background-color: #fca01b;
+    height: 0.43em;
+    width: 1.06em;
+    border-radius: 0.31em;
+}
