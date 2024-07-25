@@ -241,4 +241,7 @@ body {
     height: 0.43em;
     width: 1.06em;
     border-radius: 0.31em;
+    left: 5.43em;
+    top: 0.43em;
+    box-shadow: 0 0.75em #fca01b, 0 1.5em #fca01b;
 }
