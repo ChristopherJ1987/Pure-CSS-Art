@@ -245,3 +245,12 @@ body {
     top: 0.43em;
     box-shadow: 0 0.75em #fca01b, 0 1.5em #fca01b;
 }
+.leg {
+    background-color: #8c1436;
+    height: 5.62em;
+    width: 5.62em;
+    position: absolute;
+    z-index: -3;
+    border-radius: 3.12em;
+    top: 18.12em;
+}
