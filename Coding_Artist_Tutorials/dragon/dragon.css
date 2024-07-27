@@ -254,3 +254,10 @@ body {
     border-radius: 3.12em;
     top: 18.12em;
 }
+.leg-l {
+    left: 8.12em;
+}
+.leg-r {
+    left: 16.87em;
+    transform: rotateY(180deg);
+}
