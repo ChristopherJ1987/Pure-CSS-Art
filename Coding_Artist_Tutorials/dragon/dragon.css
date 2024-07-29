@@ -261,3 +261,13 @@ body {
     left: 16.87em;
     transform: rotateY(180deg);
 }
+.leg-l:after, .leg-r:after {
+    content: "";
+    position: absolute;
+    background-color: #ee3466;
+    height: 2.81em;
+    width: 5.62em;
+    top: 2.81em;
+    right: 2.5em;
+    border-radius: 5.62em 5.62em 0 0;
+}
