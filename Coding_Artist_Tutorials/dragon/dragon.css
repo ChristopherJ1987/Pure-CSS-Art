@@ -271,3 +271,14 @@ body {
     right: 2.5em;
     border-radius: 5.62em 5.62em 0 0;
 }
+.shadow {
+    width: 21.87em;
+    height: 0.5em;
+    background-color: rgba(163, 130, 34, 0.4);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 23.7em;
+    border-radius: 0.5em;
+}
