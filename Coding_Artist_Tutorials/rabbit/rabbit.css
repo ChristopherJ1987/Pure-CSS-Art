@@ -31,3 +31,12 @@ body {
         #d7dfe7 61%
     );
 }
+.tail {
+    position: absolute;
+    background-color: #ffffff;
+    height: 3.4em;
+    width: 3.4em;
+    border-radius: 50%;
+    right: 5.93em;
+    top: 15.93em;
+}
