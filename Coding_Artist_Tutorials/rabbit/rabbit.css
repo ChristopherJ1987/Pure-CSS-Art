@@ -40,3 +40,25 @@ body {
     right: 5.93em;
     top: 15.93em;
 }
+.face-container {
+
+}
+.rabbit-face {
+    background-color: #d7dfe7;
+    height: 5.93em;
+    width: 9.3em;
+    border-radius: 4.68em 4.68em 0 0;
+    position: absolute;
+    left: -1.25em;
+    top: -1.87em;
+}
+.rabbit-face:before {
+    position: absolute;
+    content: "";
+    background-color: #d7dfe7;
+    width: 11.25em;
+    height: 3.75em;
+    left: -0.93em;
+    top: 5.62em;
+    border-radius: 4.37em;
+}
