@@ -30,6 +30,7 @@ body {
         #b5becd 60%,
         #d7dfe7 61%
     );
+    z-index: 1;
 }
 .tail {
     position: absolute;
@@ -61,4 +62,15 @@ body {
     left: -0.93em;
     top: 5.62em;
     border-radius: 4.37em;
+}
+.ear {
+    background-color: #d7dfe7;
+    height: 8.12em;
+    width: 2.18em;
+    position: relative;
+    top: -4.06em;
+    left: 0.31em;
+    border-radius: 1.25em 1.25em 0 0;
+    box-shadow: 6.56em 0 0 #d7dfe7;
+    z-index: -1;
 }
