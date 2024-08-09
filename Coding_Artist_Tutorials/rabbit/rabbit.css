@@ -74,3 +74,14 @@ body {
     box-shadow: 6.56em 0 0 #d7dfe7;
     z-index: -1;
 }
+.ear:before {
+    content: "";
+    position: absolute;
+    background-color: #cd92b4;
+    height: 7.31em;
+    width: 1.37em;
+    top: 0.37em;
+    left: 0.37em;
+    border-radius: 1.56em;
+    box-shadow: 6.56em 0 0 #cd92b4;
+}
