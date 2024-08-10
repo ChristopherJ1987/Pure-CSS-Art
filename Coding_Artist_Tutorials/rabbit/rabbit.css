@@ -85,3 +85,17 @@ body {
     border-radius: 1.56em;
     box-shadow: 6.56em 0 0 #cd92b4;
 }
+.eye-l, .eye-r {
+    position: absolute;
+    height: 0.81em;
+    width: 1.56em;
+    background-color: #101010;
+    border-radius: 0 0 1.87em 1.87em;
+    top: 3.75em;
+}
+.eye-l {
+    left: 1.56em;
+}
+.eye-r {
+    right: 1.56em;
+}
