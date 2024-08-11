@@ -99,3 +99,13 @@ body {
 .eye-r {
     right: 1.56em;
 }
+.eye-l:before, .eye-r:before {
+    content: "";
+    position: absolute;
+    background-color: #d7dfe7;
+    height: 0.75em;
+    width: 1.12em;
+    border-radius: 0 0 0.9em 0.9em;
+    left: 0.23em;
+    bottom: 0.25em;
+}
