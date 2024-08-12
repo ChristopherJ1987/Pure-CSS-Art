@@ -109,3 +109,14 @@ body {
     left: 0.23em;
     bottom: 0.25em;
 }
+.mouth {
+    background-color: #ffffff;
+    position: absolute;
+    height: 1.87em;
+    width: 2.5em;
+    border-radius: 50% 50% 50% 50% / 30% 20% 70% 70%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 4.06em;
+}
