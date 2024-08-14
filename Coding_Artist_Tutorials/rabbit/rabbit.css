@@ -131,3 +131,34 @@ body {
     right: 0;
     background-color: #101010;
 }
+.hand-l, .hand-r {
+    position: absolute;
+    height: 2.5em;
+    width: 5em;
+    bottom: 0;
+    border-radius: 0.93em 0.93em 0 0;
+}
+.hand-l {
+    background-color: #b5becd;
+    left: -3.12em;
+}
+.hand-r {
+    background-color: #ffffff;
+    left: 5em;
+}
+.hand-l:before, .hand-r:before {
+    content: "";
+    position: absolute;
+    height: 2em;
+    width: 3.12em;
+    bottom: 0;
+    border-radius: 0.62em 0.62em 0 0;
+}
+.hand-l:before {
+    background-color: #ffffff;
+    right: -1.56em;
+}
+.hand-r:before {
+    background-color: #b5becd;
+    left: -1.56em;
+}
