@@ -162,3 +162,13 @@ body {
     background-color: #b5becd;
     left: -1.56em;
 }
+.carrot {
+    position: absolute;
+    background-color: #e78f1d;
+    width: 7.5em;
+    height: 2.5em;
+    border-radius: 25% 65% 65% 25% / 50% 50% 50% 50%;
+    left: -4.37em;
+    bottom: 0.62em;
+    transform: rotate(15deg);
+}
