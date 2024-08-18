@@ -172,3 +172,9 @@ body {
     bottom: 0.62em;
     transform: rotate(15deg);
 }
+.leaf, .leaf:before {
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 2.5em 0;
+}
