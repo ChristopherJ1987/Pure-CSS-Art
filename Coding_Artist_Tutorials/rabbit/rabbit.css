@@ -197,5 +197,30 @@ body {
     font-size: 2em;
     color: #4f1f22;
     position: absolute;
+    transform: rotate(10deg);
     animation: snore 9s infinite linear forwards;
+}
+@keyframes snore {
+    30% {
+        transform: rotate(10deg) translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(10deg) translateY(-7em);
+        opacity: 0.2;
+    }
+}
+.container .z-1 {
+    top: 5.5em;
+    left: 4.5em;
+    animation-delay: 7s;
+}
+.container .z-2 {
+    top: 7em;
+    left: 3.5em;
+    animation-delay: 1s;
+}
+.container .z-3 {
+    top: 5em;
+    left: 6em;
 }
