@@ -230,3 +230,19 @@ body {
     top: 5em;
     left: 6em;
 }
+.shadow {
+    background-color: #d34b58;
+    width: 25em;
+    height: 0.5em;
+    border-radius: 0.31em;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 19.37em;
+}
+@media screen and (min-width: 700px) {
+    .container {
+        font-size: 20px;
+    }
+}
