@@ -24,3 +24,20 @@ body {
     top: 20px;
     left: 45px;
 }
+.window:before, .window:after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(#439abf 50%, #2d2623 50%);
+}
+.window:after {
+    height: 15px;
+    width: 260px;
+    left: -5px;
+    top: 200px;
+}
+.window:before {
+    height: 15px;
+    width: 310px;
+    left: -30px;
+    bottom: -15px;
+}
