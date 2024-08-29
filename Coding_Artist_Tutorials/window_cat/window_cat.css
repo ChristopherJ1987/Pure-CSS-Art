@@ -41,3 +41,20 @@ body {
     left: -30px;
     bottom: -15px;
 }
+.mountain-1 {
+    height: 0;
+    width: 0;
+    border-bottom: 60px solid #22366d;
+    border-right: 20px solid transparent;
+    position: absolute;
+    bottom: 0;
+}
+.mountain-1:before, .mountain-1:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 60px solid #22366d;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+}
