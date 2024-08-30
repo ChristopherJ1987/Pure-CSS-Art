@@ -58,3 +58,11 @@ body {
     border-right: 20px solid transparent;
     border-left: 20px solid transparent;
 }
+.mountain-1:before {
+    bottom: -60px;
+    left: 5px;
+}
+.mountain-1:after {
+    bottom: -60px;
+    left: 35px;
+}
