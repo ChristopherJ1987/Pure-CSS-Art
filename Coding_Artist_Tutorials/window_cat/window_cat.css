@@ -49,7 +49,7 @@ body {
     position: absolute;
     bottom: 0;
 }
-.mountain-1:before, .mountain-1:after {
+.mountain-1:before, .mountain-1:after, .mountain-2:before {
     content: "";
     position: absolute;
     height: 0;
@@ -65,4 +65,13 @@ body {
 .mountain-1:after {
     bottom: -60px;
     left: 35px;
+}
+.mountain-2 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 60px solid #22366d;
+    border-left: 20px solid transparent;
+    right: 0;
+    bottom: 0;
 }
