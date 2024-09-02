@@ -75,3 +75,7 @@ body {
     right: 0;
     bottom: 0;
 }
+.mountain-2:before {
+    bottom: -60px;
+    right: 10px;
+}
