@@ -79,3 +79,12 @@ body {
     bottom: -60px;
     right: 10px;
 }
+.kitty {
+    background-color: #2d2623;
+    height: 140px;
+    width: 50px;
+    position: absolute;
+    bottom: -15px;
+    left: 95px;
+    border-radius: 40px 40px 0 0;
+}
