@@ -98,3 +98,16 @@ body {
     bottom: 0;
     left: 43px;
 }
+.kitty:after {
+    content: "";
+    position: absolute;
+    background-color: #2d2623;
+    height: 80px;
+    width: 10px;
+    border-radius: 5px;
+    bottom: -70px;
+    left: 45px;
+    transform: rotate(-15deg);
+    transform-origin: top;
+    animation: tail 4s infinite;
+}
