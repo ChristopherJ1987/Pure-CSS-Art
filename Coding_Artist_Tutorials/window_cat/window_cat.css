@@ -111,3 +111,8 @@ body {
     transform-origin: top;
     animation: tail 4s infinite;
 }
+@keyframes tail {
+    50% {
+        transform: rotate(10deg);
+    }
+}
