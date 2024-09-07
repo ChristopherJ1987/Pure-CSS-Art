@@ -116,3 +116,21 @@ body {
         transform: rotate(10deg);
     }
 }
+.ear {
+    height: 0;
+    width: 0;
+    position: relative;
+    border-bottom: 40px solid #2d2623;
+    border-right: 33px solid transparent;
+    bottom: 12px;
+}
+.ear:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 40px solid #2d2623;
+    border-left: 33px solid transparent;
+    bottom: -40px;
+    left: 17px;
+}
