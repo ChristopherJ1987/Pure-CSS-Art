@@ -134,3 +134,13 @@ body {
     bottom: -40px;
     left: 17px;
 }
+.moon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: -15px 8px 0 1px #e8ae4a;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+}
