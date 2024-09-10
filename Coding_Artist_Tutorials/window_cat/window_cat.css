@@ -159,3 +159,8 @@ body {
         40px 135px #e8ae4a;
     animation: twinkle 2s infinite;
 }
+@keyframes twinkle {
+    50% {
+        opacity: 0.4;
+    }
+}
