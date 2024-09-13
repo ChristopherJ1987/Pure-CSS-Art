@@ -14,4 +14,15 @@ body {
         #ff8000 80%
     );
     border-radius: 50%;
+    position: relative;
+}
+.emoji:before, .emoji:after {
+    content: "";
+    height: 45px;
+    width: 32px;
+    background-color: #663d0f;
+    position: absolute;
+    box-shadow: 0 -6px #4d2e08;
+    border-radius: 50%;
+    top: 90px;
 }
