@@ -26,3 +26,9 @@ body {
     border-radius: 50%;
     top: 90px;
 }
+.emoji:before {
+    left: 80px;
+}
+.emoji:after {
+    right: 80px;
+}
