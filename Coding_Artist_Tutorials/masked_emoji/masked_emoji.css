@@ -44,3 +44,11 @@ body {
     z-index: 0;
     border-radius: 5px 5px 50% 50%;
 }
+.mask:before, .mask:after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 10px;
+    background-color: #e9fbfa;
+    z-index: -1;
+}
