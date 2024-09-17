@@ -15,6 +15,8 @@ body {
     );
     border-radius: 50%;
     position: relative;
+    overflow: hidden;
+    box-shadow: 30px 30px 35px rgba(0, 0, 0, 0.25);
 }
 .emoji:before, .emoji:after {
     content: "";
@@ -51,4 +53,14 @@ body {
     height: 10px;
     background-color: #e9fbfa;
     z-index: -1;
+}
+.mask:before {
+    transform: rotate(-20deg);
+    right: -51px;
+    top: 30px;
+}
+.mask:after {
+    transform: rotate(20deg);
+    left: -51px;
+    top: 30px;
 }
