@@ -64,3 +64,16 @@ body {
     left: -51px;
     top: 30px;
 }
+.details {
+    height: 15px;
+    width: 180px;
+    background-color: #bef4f1;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 20px;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 25px #bef4f1,
+        0 50px #bef4f1;
+}
