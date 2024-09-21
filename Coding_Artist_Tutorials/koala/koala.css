@@ -15,3 +15,15 @@ body {
     left: 50%;
     top: 50%;
 }
+.branch {
+    background-color: #7b5319;
+    width: 90%;
+    height: 22px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 12px;
+}
