@@ -27,3 +27,12 @@ body {
     left: 0;
     border-radius: 12px;
 }
+.body {
+    background-color: #767677;
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
