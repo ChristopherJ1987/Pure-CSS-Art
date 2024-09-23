@@ -36,3 +36,11 @@ body {
     left: 150px;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
+.body:before, .body:after {
+    content: "";
+    position: absolute;
+    background-color: #767677;
+    height: 70px;
+    width: 35px;
+    border-radius: 18px;
+}
