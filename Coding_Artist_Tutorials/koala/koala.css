@@ -44,3 +44,8 @@ body {
     width: 35px;
     border-radius: 18px;
 }
+.body:before {
+    top: 60px;
+    left: 115px;
+    transform: rotate(-15deg);
+}
