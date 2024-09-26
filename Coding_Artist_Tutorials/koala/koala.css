@@ -49,3 +49,7 @@ body {
     left: 115px;
     transform: rotate(-15deg);
 }
+.body:after {
+    top: 70px;
+    left: 20px;
+}
