@@ -53,3 +53,12 @@ body {
     top: 70px;
     left: 20px;
 }
+.face {
+    position: absolute;
+    background-color: #8f8d8f;
+    height: 115px;
+    width: 115px;
+    top: 150px;
+    left: 88px;
+    border-radius: 50%;
+}
