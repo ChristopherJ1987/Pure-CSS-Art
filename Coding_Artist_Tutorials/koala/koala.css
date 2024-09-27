@@ -62,3 +62,10 @@ body {
     left: 88px;
     border-radius: 50%;
 }
+.ear-1, .ear-2 {
+    background-color: #efd8db;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    position: absolute;
+}
