@@ -69,3 +69,8 @@ body {
     border-radius: 50%;
     position: absolute;
 }
+.ear-2 {
+    box-shadow: 0 -5px 0 12px #a9a9ac;
+    top: 135px;
+    left: 172px;
+}
