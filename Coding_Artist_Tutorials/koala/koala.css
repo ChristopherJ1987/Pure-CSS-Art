@@ -79,3 +79,11 @@ body {
     top: 205px;
     left: 65px;
 }
+.ear-1:before, .ear-1:after {
+    content: "";
+    position: absolute;
+    background-color: #5c5b5d;
+    height: 70px;
+    width: 35px;
+    border-radius: 18px;
+}
