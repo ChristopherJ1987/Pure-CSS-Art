@@ -87,3 +87,11 @@ body {
     width: 35px;
     border-radius: 18px;
 }
+.ear-1:before {
+    top: 8px;
+    left: 50px;
+}
+.ear-1:after {
+    left: 160px;
+    top: 5px;
+}
