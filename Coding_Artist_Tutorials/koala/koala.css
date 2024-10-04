@@ -95,3 +95,13 @@ body {
     left: 160px;
     top: 5px;
 }
+.branch:before {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #aaa7aa;
+    bottom: 60px;
+    left: 267px;
+    border-radius: 50%;
+}
