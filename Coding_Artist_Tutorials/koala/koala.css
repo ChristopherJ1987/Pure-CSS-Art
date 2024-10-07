@@ -125,3 +125,12 @@ body {
     top: 74px;
     left: 16px;
 }
+.eye:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    box-shadow: 0 3.5px #343434;
+    border-radius: 50%;
+    left: 50px;
+}
