@@ -134,3 +134,12 @@ body {
     border-radius: 50%;
     left: 50px;
 }
+.eye:after {
+    content: "";
+    position: absolute;
+    background-color: #343434;
+    height: 35px;
+    width: 30px;
+    left: 20px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
