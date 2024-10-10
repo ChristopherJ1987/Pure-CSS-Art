@@ -9,7 +9,6 @@ body {
 .container {
     height: 500px;
     width: 500px;
-    border: 1px solid black;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -75,7 +74,7 @@ body {
     left: 172px;
 }
 .ear-1 {
-    box-shadow: -3px -5px 0 12px;
+    box-shadow: -3px -5px 0 12px #828082;
     top: 205px;
     left: 65px;
 }
@@ -142,4 +141,15 @@ body {
     width: 30px;
     left: 20px;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.face:after {
+    content: "";
+    position: absolute;
+    background-color: #efd8db;
+    height: 14px;
+    width: 14px;
+    top: 62px;
+    left: 86px;
+    opacity: 0.9;
+    border-radius: 50%;
 }
