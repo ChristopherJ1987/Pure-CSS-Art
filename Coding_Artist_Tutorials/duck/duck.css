@@ -24,3 +24,15 @@ body {
     top: 100px;
     left: 100px;
 }
+.duck-body:before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    box-shadow: 80px 45px 0 #fe9711;
+    border-radius: 50%;
+    left: 10px;
+    top: -5px;
+    transform: rotate(30deg);
+}
