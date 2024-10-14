@@ -36,3 +36,12 @@ body {
     top: -5px;
     transform: rotate(30deg);
 }
+.duck-body:after {
+    content: "";
+    position: absolute;
+    background-color: #fed72b;
+    height: 130px;
+    width: 220px;
+    top: 140px;
+    border-radius: 70px;
+}
