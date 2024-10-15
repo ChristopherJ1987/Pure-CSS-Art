@@ -45,3 +45,12 @@ body {
     top: 140px;
     border-radius: 70px;
 }
+.feather {
+    position: absolute;
+    background-color: #fef53a;
+    width: 170px;
+    height: 110px;
+    top: 220px;
+    left: 190px;
+    border-radius: 31% 69% 69% 31% / 50% 100% 0 50%;
+}
