@@ -54,3 +54,14 @@ body {
     left: 190px;
     border-radius: 31% 69% 69% 31% / 50% 100% 0 50%;
 }
+.feather:before {
+    content: "";
+    position: absolute;
+    background-color: #fe9711;
+    width: 80px;
+    height: 20px;
+    top: -100px;
+    left: -15px;
+    z-index: 1;
+    border-radius: 0 5px 20px 0;
+}
