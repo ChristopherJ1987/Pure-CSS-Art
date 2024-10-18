@@ -65,3 +65,13 @@ body {
     z-index: 1;
     border-radius: 0 5px 20px 0;
 }
+.feather:after {
+    content: "";
+    position: absolute;
+    background-color: #fed72b;
+    width: 70px;
+    height: 25px;
+    top: -120px;
+    left: -15px;
+    border-radius: 0 5px 20px 0;
+}
