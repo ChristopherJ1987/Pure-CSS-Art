@@ -95,3 +95,12 @@ body {
     bottom: 45px;
     left: -1px;
 }
+.eye:after {
+    content: "";
+    position: absolute;
+    background-color: #fed72b;
+    height: 20px;
+    width: 50px;
+    top: 32px;
+    left: -10px;
+}
