@@ -104,3 +104,12 @@ body {
     top: 32px;
     left: -10px;
 }
+.beak {
+    background-color: #d55326;
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+    border-radius: 35% 10% 16% 0 / 100% 0 30% 10%;
+}
