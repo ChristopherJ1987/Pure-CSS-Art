@@ -113,3 +113,13 @@ body {
     left: 70px;
     border-radius: 35% 10% 16% 0 / 100% 0 30% 10%;
 }
+.beak:before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 90px;
+    background-color: #fe9711;
+    border-radius: 0 40% 0 40% / 0 100% 0 100%;
+    bottom: 12px;
+    right: 0;
+}
