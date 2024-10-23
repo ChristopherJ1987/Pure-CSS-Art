@@ -123,3 +123,13 @@ body {
     bottom: 12px;
     right: 0;
 }
+.beak:after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 15px;
+    background-color: #d45326;
+    bottom: 40px;
+    right: 30px;
+    border-radius: 5px;
+}
