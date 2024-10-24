@@ -9,7 +9,6 @@ body {
 .container {
     width: 420px;
     height: 500px;
-    border: 1px solid black;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -152,4 +151,14 @@ body {
     top: 25px;
     border-radius: 5px;
     box-shadow: -30px 0 #d45326;
+}
+.leg:after {
+    content: "";
+    position: absolute;
+    background-color: #7e2e4e;
+    height: 15px;
+    width: 200px;
+    top: 38px;
+    left: -100px;
+    border-radius: 7px;
 }
