@@ -133,3 +133,23 @@ body {
     right: 30px;
     border-radius: 5px;
 }
+.leg {
+    position: absolute;
+    background-color: #fe9711;
+    width: 12px;
+    height: 30px;
+    top: 370px;
+    left: 220px;
+    box-shadow: -30px 0 #d45326;
+}
+.leg:before {
+    content: "";
+    position: absolute;
+    background-color: #fe9711;
+    width: 52px;
+    height: 12px;
+    left: -23px;
+    top: 25px;
+    border-radius: 5px;
+    box-shadow: -30px 0 #d45326;
+}
