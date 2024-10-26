@@ -87,3 +87,16 @@ body {
     bottom: 40px;
     box-shadow: -72px 35px #202020;
 }
+.mouth {
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    background: radial-gradient(
+        circle at 50% 100%,
+        #ff90a3 15px,
+        #202020 16px
+    );
+    top: 20px;
+    left: 93px;
+    border-radius: 0 0 40px 40px;
+}
