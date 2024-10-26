@@ -100,3 +100,12 @@ body {
     left: 93px;
     border-radius: 0 0 40px 40px;
 }
+.mouth:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    background-color: #ffffff;
+    left: 14px;
+    top: -0.5px;
+}
