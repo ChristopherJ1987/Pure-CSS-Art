@@ -17,6 +17,12 @@ body {
     top: 0;
     bottom: -150px;
     border-radius: 50px;
+    animation: fly 4s infinite;
+}
+@keyframes fly {
+    50% {
+        transform: translateY(-150px);
+    }
 }
 .bee:before {
     content: "";
