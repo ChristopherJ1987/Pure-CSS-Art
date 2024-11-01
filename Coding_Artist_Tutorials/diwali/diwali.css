@@ -27,3 +27,14 @@ body {
     right: 0;
     bottom: 50px;
 }
+.inside {
+    width: 300px;
+    height: 60px;
+    background-color: #fd500a;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 170px;
+}
