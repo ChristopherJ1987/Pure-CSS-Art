@@ -38,3 +38,14 @@ body {
     right: 0;
     bottom: 170px;
 }
+.shadow {
+    width: 320px;
+    height: 60px;
+    background-color: rgba(25, 5, 71, 0.5);
+    position: absolute;
+    bottom: 30px;
+    border-radius: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
