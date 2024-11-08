@@ -68,3 +68,12 @@ body {
         bottom: 42px;
     }
 }
+.flame:after {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #f4c631;
+    border-radius: 120px 0;
+    bottom: 0;
+}
