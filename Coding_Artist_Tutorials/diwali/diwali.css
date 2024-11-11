@@ -77,3 +77,12 @@ body {
     border-radius: 120px 0;
     bottom: 0;
 }
+.light {
+    height: 330px;
+    width: 330px;
+    background-color: rgba(253, 241, 194, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+}
