@@ -93,3 +93,11 @@ body {
     position: absolute;
     background-color: rgba(253, 241, 194, 0.3);
 }
+.light:before {
+    bottom: 30px;
+    right: 60px;
+}
+.light:after {
+    top: 50px;
+    left: 80px;
+}
