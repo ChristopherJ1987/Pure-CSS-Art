@@ -92,6 +92,13 @@ body {
     width: 120px;
     position: absolute;
     background-color: rgba(253, 241, 194, 0.3);
+    animation: shine 5s linear infinite;
+}
+@keyframes shine {
+    50% {
+        transform: scale(0.7);
+        opacity: 0.2;
+    }
 }
 .light:before {
     bottom: 30px;
@@ -100,4 +107,5 @@ body {
 .light:after {
     top: 50px;
     left: 80px;
+    animation-delay: 1s;
 }
