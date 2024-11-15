@@ -109,3 +109,11 @@ body {
     left: 80px;
     animation-delay: 1s;
 }
+.line-1, .line-2 {
+    height: 60px;
+    width: 320px;
+    border: none;
+    border-bottom: 8px solid #ffffff;
+    border-radius: 50%;
+    left: -10px;
+}
