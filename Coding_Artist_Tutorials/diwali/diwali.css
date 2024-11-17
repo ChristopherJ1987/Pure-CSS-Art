@@ -10,7 +10,6 @@ body {
 .container {
     width: 500px;
     height: 500px;
-    border: 1px solid whitesmoke;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -26,6 +25,7 @@ body {
     left: 0;
     right: 0;
     bottom: 50px;
+    overflow: hidden;
 }
 .inside {
     width: 300px;
@@ -91,6 +91,7 @@ body {
     height: 120px;
     width: 120px;
     position: absolute;
+    border-radius: 50%;
     background-color: rgba(253, 241, 194, 0.3);
     animation: shine 5s linear infinite;
 }
