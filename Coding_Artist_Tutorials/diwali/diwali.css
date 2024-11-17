@@ -110,10 +110,24 @@ body {
     animation-delay: 1s;
 }
 .line-1, .line-2 {
+    position: absolute;
     height: 60px;
     width: 320px;
     border: none;
     border-bottom: 8px solid #ffffff;
     border-radius: 50%;
+    left: -10px;
+}
+.line-2 {
+    top: 60px;
+}
+.dots {
+    height: 60px;
+    width: 320px;
+    border: none;
+    border-bottom: 10px dotted #fd500a;
+    position: absolute;
+    border-radius: 50%;
+    top: 30px;
     left: -10px;
 }
