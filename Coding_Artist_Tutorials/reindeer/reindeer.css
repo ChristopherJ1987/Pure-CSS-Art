@@ -13,3 +13,16 @@ body {
     left: 0;
     right: 0;
 }
+.reindeer {
+    position: relative;
+    top: 50px;
+}
+.face {
+    background-color: #fbd486;
+    height: 150px;
+    width: 100px;
+    border-radius: 70px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
