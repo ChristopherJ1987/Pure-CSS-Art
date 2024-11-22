@@ -26,3 +26,16 @@ body {
     top: 100px;
     left: 120px;
 }
+.antler1 {
+    height: 25px;
+    width: 90px;
+    border-right: 10px solid #70141f;
+    border-top: 10px solid #70141f;
+    border-radius: 0 20px 0 0;
+    z-index: -2;
+    position: relative;
+}
+.antler1 {
+    bottom: 15px;
+    right: 65px;
+}
