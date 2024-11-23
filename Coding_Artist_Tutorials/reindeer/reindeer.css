@@ -39,3 +39,21 @@ body {
     bottom: 15px;
     right: 65px;
 }
+.a1, .a2, .a3 {
+    background-color: #70141f;
+    height: 55px;
+    width: 10px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.a1 {
+    bottom: 55px;
+}
+.a2 {
+    bottom: 110px;
+    left: 30px;
+}
+.a3 {
+    bottom: 165px;
+    left: 60px;
+}
