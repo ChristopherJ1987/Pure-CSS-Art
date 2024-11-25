@@ -77,3 +77,12 @@ body {
     bottom: 45px;
     left: 60px;
 }
+.eyeball {
+    background-color: whitesmoke;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
