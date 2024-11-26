@@ -86,3 +86,20 @@ body {
     top: 6px;
     left: 6px;
 }
+.ear1, .ear2 {
+    background-color: #efac55;
+    height: 30px;
+    width: 60px;
+    border-radius: 0 0 30px 30px;
+    position: relative;
+}
+.ear1 {
+    bottom: 95px;
+    right: 21px;
+    transform: rotate(-25deg);
+}
+.ear2 {
+    bottom: 125px;
+    left: 60px;
+    transform: rotate(25deg);
+}
