@@ -103,3 +103,12 @@ body {
     left: 60px;
     transform: rotate(25deg);
 }
+.nose {
+    background-color: #ef335d;
+    height: 22px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 97px;
+    left: 32px;
+}
