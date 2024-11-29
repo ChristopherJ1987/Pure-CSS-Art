@@ -112,3 +112,10 @@ body {
     bottom: 97px;
     left: 32px;
 }
+.leg1, .leg2 {
+    background-color: #70140f;
+    height: 100px;
+    width: 20px;
+    position: relative;
+    border-radius: 0 0 8px 8px;
+}
