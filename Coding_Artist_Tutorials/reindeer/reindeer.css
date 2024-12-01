@@ -118,4 +118,23 @@ body {
     width: 20px;
     position: relative;
     border-radius: 0 0 8px 8px;
+    z-index: -2;
+}
+.leg1 {
+    left: 140px;
+    top: 160px;
+}
+.leg2 {
+    left: 180px;
+    top: 60px;
+}
+.body {
+    background-color: #efac55;
+    height: 200px;
+    width: 130px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 205px;
+    left: 105px;
+    z-index: -1;
 }
