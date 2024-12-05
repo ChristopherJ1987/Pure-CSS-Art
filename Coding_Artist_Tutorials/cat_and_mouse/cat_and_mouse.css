@@ -3,4 +3,14 @@ body {
     padding: 0;
     background-color: #ebc34c;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cat {
+    background-color: #875c2d;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px 100px 80px 80px;
+    position: relative;
 }
