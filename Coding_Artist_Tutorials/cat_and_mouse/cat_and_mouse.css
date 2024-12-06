@@ -14,3 +14,18 @@ body {
     border-radius: 100px 100px 80px 80px;
     position: relative;
 }
+.ear {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 60px solid #875c2d;
+    border-right: 45px solid transparent;
+    bottom: 52px;
+}
+.ear-l {
+    left: 0.6px;
+}
+.ear-r {
+    transform: rotateY(180deg);
+    right: 0.6px;
+}
