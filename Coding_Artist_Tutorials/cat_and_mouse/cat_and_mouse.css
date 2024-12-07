@@ -29,3 +29,12 @@ body {
     transform: rotateY(180deg);
     right: 0.6px;
 }
+.eye {
+    height: 38px;
+    width: 38px;
+    background-color: #fefefe;
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    top: 21px;
+}
