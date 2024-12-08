@@ -38,3 +38,9 @@ body {
     border-radius: 50%;
     top: 21px;
 }
+.eye-l {
+    left: 10.5px;
+}
+.eye-r {
+    right: 10.5px;
+}
