@@ -35,6 +35,8 @@ body {
     background-color: #fefefe;
     position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     top: 21px;
 }
@@ -43,4 +45,11 @@ body {
 }
 .eye-r {
     right: 10.5px;
+}
+.circle {
+    height: 26px;
+    width: 26px;
+    border: 1px solid black;
+    border-radius: 50%;
+    animation: spin 5s infinite linear;
 }
