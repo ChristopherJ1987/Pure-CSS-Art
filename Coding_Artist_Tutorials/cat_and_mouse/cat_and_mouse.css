@@ -53,3 +53,8 @@ body {
     border-radius: 50%;
     animation: spin 5s infinite linear;
 }
+@keyframes spin {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
