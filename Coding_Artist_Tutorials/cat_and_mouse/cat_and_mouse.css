@@ -67,3 +67,22 @@ body {
     left: 6px;
     border-radius: 50%;
 }
+.nose {
+    height: 20px;
+    width: 27px;
+    background-color: #433019;
+    position: absolute;
+    border-radius: 50% 50% 52% 48% / 18% 18% 82% 82%;
+    top: 42px;
+    left: 36px;
+}
+.nose::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 2.5px;
+    background-color: #433019;
+    top: 19px;
+    left: 12px;
+    z-index: -2;
+}
