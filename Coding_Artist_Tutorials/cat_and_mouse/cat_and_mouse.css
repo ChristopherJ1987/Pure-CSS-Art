@@ -96,3 +96,15 @@ body {
     border-radius: 0 0 35px 35px;
     border: 2.5px solid #433019;
 }
+.mouth:before {
+    content: "";
+    position: absolute;
+    background-color: #875c2d;
+    height: 3px;
+    width: 14px;
+    border-radius: 0 0 35px 35px;
+    border: 2.5px solid transparent;
+    border-bottom: 2.5px solid #433019;
+    bottom: 5px;
+    right: 9px;
+}
