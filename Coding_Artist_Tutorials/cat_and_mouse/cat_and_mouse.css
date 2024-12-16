@@ -122,3 +122,17 @@ body {
     left: 10px;
     z-index: 1;
 }
+.whiskers-1 {
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.whiskers > div:nth-child(1) {
+    height: 1px;
+    width: 35px;
+    background-color: #433019;
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    transform: rotate(5deg);
+}
