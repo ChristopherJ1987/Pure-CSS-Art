@@ -136,3 +136,11 @@ body {
     right: 80px;
     transform: rotate(5deg);
 }
+.whiskers > :nth-child(2) {
+    height: 1px;
+    width: 30px;
+    background-color: #433019;
+    position: absolute;
+    top: 70px;
+    right: 80px;
+}
