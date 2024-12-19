@@ -160,3 +160,10 @@ body {
     right: 80px;
     transform: rotate(-5deg);
 }
+.path {
+    height: 290px;
+    width: 290px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+}
