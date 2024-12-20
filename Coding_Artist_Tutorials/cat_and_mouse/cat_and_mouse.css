@@ -167,3 +167,13 @@ body {
     border: 1px solid black;
     border-radius: 50%;
 }
+.mouse {
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    background-color: #ffffff;
+    border-radius: 50% 50% 50% 50% / 31% 31% 69% 69%;
+    top: -25px;
+    left: 125px;
+    transform: rotate(90deg);
+}
