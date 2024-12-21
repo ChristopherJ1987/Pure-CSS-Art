@@ -177,3 +177,12 @@ body {
     left: 125px;
     transform: rotate(90deg);
 }
+.mouse:before, .mouse:after {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    bottom: 8px;
+}
