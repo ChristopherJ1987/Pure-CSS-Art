@@ -186,3 +186,9 @@ body {
     border-radius: 50%;
     bottom: 8px;
 }
+.mouse:before {
+    left: -3px;
+}
+.mouse:after {
+    right: -3px;
+}
