@@ -164,8 +164,13 @@ body {
     height: 290px;
     width: 290px;
     position: absolute;
-    border: 1px solid black;
     border-radius: 50%;
+    animation: run 5s infinite linear;
+}
+@keyframes run {
+    100% {
+        transform: rotate(-360deg);
+    }
 }
 .mouse {
     position: absolute;
@@ -191,4 +196,13 @@ body {
 }
 .mouse:after {
     right: -3px;
+}
+.tail {
+    height: 10px;
+    width: 3px;
+    position: absolute;
+    background-color: #ffffff;
+    top: -8px;
+    left: 12px;
+    border-radius: 12px;
 }
