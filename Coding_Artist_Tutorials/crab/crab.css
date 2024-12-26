@@ -16,3 +16,14 @@ body {
     left: 50%;
     border-radius: 0.6em;
 }
+.crab-body {
+    background-color: #fe4566;
+    height: 8.7em;
+    width: 15em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: calc(50% + 8.7em);
+    left: 50%;
+    border-radius: 8.7em;
+    overflow: hidden;
+}
