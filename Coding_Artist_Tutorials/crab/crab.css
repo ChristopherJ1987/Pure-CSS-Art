@@ -27,3 +27,13 @@ body {
     border-radius: 8.7em;
     overflow: hidden;
 }
+.crab-body {
+    content: "";
+    position: absolute;
+    background-color: #ff7b94;
+    height: 15em;
+    width: 15em;
+    border-radius: 5em;
+    transform: rotate(45deg);
+    top: 5em;
+}
