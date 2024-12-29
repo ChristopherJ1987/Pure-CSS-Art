@@ -37,3 +37,10 @@ body {
     transform: rotate(45deg);
     top: 5em;
 }
+.crab-hand-l, .crab-hand-r {
+    height: 5em;
+    width: 5em;
+    border-bottom: 0.9em solid #dc0c3e;
+    position: absolute;
+    top: 7.8em;
+}
