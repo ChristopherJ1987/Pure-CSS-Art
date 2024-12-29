@@ -44,3 +44,9 @@ body {
     position: absolute;
     top: 7.8em;
 }
+.crab-hand-l {
+    border-left: 0.9em solid #dc0c3e;
+    border-radius: 0 0 0 3.1em;
+    transform: rotate(45deg);
+    left: 5em;
+}
