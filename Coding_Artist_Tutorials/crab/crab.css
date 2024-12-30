@@ -50,3 +50,9 @@ body {
     transform: rotate(45deg);
     left: 5em;
 }
+.crab-hand-r {
+    border-right: 0.9em solid #dc0c3e;
+    border-radius: 0 0 3.1em 0;
+    transform: rotate(-45deg);
+    right: 5em;
+}
