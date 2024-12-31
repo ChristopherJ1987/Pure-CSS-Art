@@ -56,3 +56,13 @@ body {
     transform: rotate(-45deg);
     right: 5em;
 }
+.crab-hand-l:before, .crab-hand-r:before {
+    content: "";
+    position: absolute;
+    height: 3.1em;
+    width: 3.1em;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 1.87em 0 1.25em #fe4566;
+    bottom: 5em;
+}
