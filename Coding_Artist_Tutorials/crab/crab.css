@@ -66,3 +66,9 @@ body {
     box-shadow: 0 1.87em 0 1.25em #fe4566;
     bottom: 5em;
 }
+.crab-hand-l:before {
+    left: -1.87em;
+}
+.crab-hand-r {
+    right: -1.87em;
+}
