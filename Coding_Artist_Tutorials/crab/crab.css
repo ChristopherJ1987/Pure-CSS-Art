@@ -72,3 +72,13 @@ body {
 .crab-hand-r {
     right: -1.87em;
 }
+.crab-eyes {
+    background-color: #414c51;
+    height: 1.25em;
+    width: 1.1em;
+    position: absolute;
+    top: 10.37em;
+    left: 10.93em;
+    border-radius: 0.6em 0.6em 0 0;
+    box-shadow: 5.3em 0 #414c51;
+}
