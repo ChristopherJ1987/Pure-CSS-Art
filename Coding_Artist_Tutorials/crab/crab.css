@@ -82,3 +82,9 @@ body {
     border-radius: 0.6em 0.6em 0 0;
     box-shadow: 5.3em 0 #414c51;
 }
+.crab-leg-l, .crab-leg-r {
+    height: 3.75em;
+    width: 3.12em;
+    border-top: 0.9em solid #dc0c3e;
+    position: absolute;
+}
