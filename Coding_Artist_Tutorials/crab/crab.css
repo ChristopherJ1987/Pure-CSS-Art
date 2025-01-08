@@ -88,11 +88,21 @@ body {
     border-top: 0.9em solid #dc0c3e;
     position: absolute;
 }
-.crab-hand-l {
+.crab-leg-l {
     border-left: 0.9em solid #dc0c3e;
     border-radius: 2.8em 0 0 0;
 }
-.crab-hand-r {
+.crab-leg-r {
     border-right: 0.9em solid #dc0c3e;
     border-radius: 0 2.8em 0 0;
+}
+.leg-l-1 {
+    transform: skew(15deg);
+    top: 15em;
+    left: 3.75em;
+}
+.leg-r-1 {
+    transform: skew(15deg);
+    top: 15em;
+    right: 3.75em;
 }
