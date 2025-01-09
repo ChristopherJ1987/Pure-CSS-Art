@@ -106,3 +106,8 @@ body {
     top: 15em;
     right: 3.75em;
 }
+.leg-l-2 {
+    transform: rotate(-10deg) skew(-15deg);
+    left: 5.62em;
+    top: 18.12em;
+}
