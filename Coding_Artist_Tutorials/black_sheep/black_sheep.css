@@ -8,3 +8,23 @@ body {
     background-color: #fed767;
     overflow: hidden;
 }
+.ground {
+    height: 9.37em;
+    width: 100%;
+    background-color: #f07c08;
+    position: absolute;
+    bottom: 0;
+}
+.ground:after {
+    content: "";
+    position: absolute;
+    height: 1.56em;
+    width: 343em;
+    background-repeat: repeat no-repeat;
+    background-size: 2.5em 1.56em;
+    background-image: radial-gradient(
+        circle at 1.25em 1.56em,
+        #f07c08 1.56em,
+        #fed767 1.56em
+    );
+}
