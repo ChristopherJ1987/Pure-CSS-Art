@@ -33,7 +33,20 @@ body {
     width: 31.25em;
     border: 1px solid black;
     position: absolute;
-    transform: translateX(-50%, -50%);
+    transform: translateX(-50%);
     bottom: 9.37em;
     left: 50%;
+}
+.face {
+    height: 6.25em;
+    width: 8.75em;
+    background: linear-gradient(
+        to right, 
+        #0c333f 80%,
+        #0078bc 80%);
+    position: absolute;
+    top: 17.5em;
+    border-radius: 3.12em 0 0 3.12em;
+    left: 2.81em;
+    transform-origin: 50% 100%;
 }
