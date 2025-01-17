@@ -50,3 +50,11 @@ body {
     left: 2.81em;
     transform-origin: 50% 100%;
 }
+.eye, .eye:before {
+    position: absolute;
+    background-color: #002336;
+    height: 1.87em;
+    width: 1.87em;
+    border: 0.56em solid #ffffff;
+    border-radius: 50%;
+}
