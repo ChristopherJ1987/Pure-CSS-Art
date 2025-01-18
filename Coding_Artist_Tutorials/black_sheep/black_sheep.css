@@ -58,3 +58,12 @@ body {
     border: 0.56em solid #ffffff;
     border-radius: 50%;
 }
+.eye {
+    top: 1.25em;
+    left: 2.18em;
+}
+.eye:before {
+    content: "";
+    top: -0.56em;
+    left: 0.87em;
+}
