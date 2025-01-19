@@ -67,3 +67,21 @@ body {
     top: -0.56em;
     left: 0.87em;
 }
+.ears, .ears:after {
+    position: absolute;
+    height: 3.12em;
+    width: 1.25em;
+    background-color: #0c333f;
+    border-radius: 0.62em;
+}
+.ears {
+    top: -2em;
+    left: 4.68em;
+    transform: rotate(-25deg);
+}
+.ears:after {
+    content: "";
+    left: 0.93em;
+    top: 0.31em;
+    transform: rotate(50deg);
+}
