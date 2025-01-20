@@ -85,3 +85,13 @@ body {
     top: 0.31em;
     transform: rotate(50deg);
 }
+.mouth {
+    background-color: #8c1837;
+    height: 1.25em;
+    width: 2.5em;
+    border-radius: 0 0 1.25em 1.25em;
+    position: absolute;
+    left: 3.75em;
+    top: 4em;
+    overflow: hidden;
+}
