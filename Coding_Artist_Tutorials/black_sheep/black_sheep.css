@@ -105,3 +105,28 @@ body {
     top: 0.31em;
     left: 0.93em;
 }
+.body {
+    height: 15.62em;
+    width: 15.62em;
+    background-color: #0c333f;
+    border-radius: 50%;
+    position: absolute;
+    left: 11.87em;
+    top: 11.87em;
+    box-shadow: 0 7.81em 0 -5.62em #0c333f, 
+        0 -7.81em 0 -5.62em #0c333f,
+        7.81em 0 0 -5.62em #0c333f,
+        -7.81em 0 0 -5.62em #0c333f,
+        7.18em 3.12em 0 -5.62em #0c333f,
+        7.18em -3.12em 0 -5.62em #0c333f,
+        -7.18em 3.12em 0 -5.62em #0c333f,
+        -7.18em -3.12em 0 -5.62em #0c333f,
+        3.12em 7.18em 0 -5.62em #0c333f,
+        3.12em -7.18em 0 -5.62em #0c333f,
+        -3.12em 7.18em 0 -5.62em #0c333f,
+        -3.12em -7.18em 0 -5.62em #0c333f,
+        -5.62em -5.62em 0 -5.62em #0c333f,
+        -5.62em 5.62em 0 -5.62em #0c333f,
+        5.62em -5.62em 0 -5.62em #0c333f,
+        5.62em 5.62em 0 -5.62em #0c333f;
+}
