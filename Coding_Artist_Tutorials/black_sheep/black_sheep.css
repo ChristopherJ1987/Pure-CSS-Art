@@ -95,3 +95,13 @@ body {
     top: 4em;
     overflow: hidden;
 }
+.mouth:after {
+    content: "";
+    position: absolute;
+    background-color: #c32954;
+    height: 0.93em;
+    width: 1.87em;
+    border-radius: 0.31em;
+    top: 0.31em;
+    left: 0.93em;
+}
