@@ -150,3 +150,8 @@ body {
 .leg-4 {
     left: 24.37em;
 }
+@media screen and (min-width: 700px) {
+    body {
+        font-size: 18px;
+    }
+}
