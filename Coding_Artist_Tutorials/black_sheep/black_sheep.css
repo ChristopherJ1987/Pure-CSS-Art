@@ -27,11 +27,17 @@ body {
         #f07c08 1.56em,
         #fed767 1.56em
     );
+    animation: slide 20s infinite linear;
+    transform: translateX(-250em);
+}
+@keyframes slide {
+    100% {
+        transform: translateX(0);
+    }
 }
 .container {
     height: 31.25em;
     width: 31.25em;
-    border: 1px solid black;
     position: absolute;
     transform: translateX(-50%);
     bottom: 9.37em;
