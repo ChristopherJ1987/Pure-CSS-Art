@@ -55,6 +55,12 @@ body {
     border-radius: 3.12em 0 0 3.12em;
     left: 2.81em;
     transform-origin: 50% 100%;
+    animation: face-shake 0.3s infinite;
+}
+@keyframes face-shake {
+    50% {
+        transform: rotate(-5deg);
+    }
 }
 .eye, .eye:before {
     position: absolute;
