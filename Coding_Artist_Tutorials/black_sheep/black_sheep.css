@@ -162,6 +162,28 @@ body {
 .leg-4 {
     left: 24.37em;
 }
+.leg-2, .leg-4 {
+    animation: run-1 0.4s infinite linear;
+}
+@keyframes run-1 {
+    33% {
+        transform: translate(-2.5em, -2.5em);
+    }
+    66% {
+        transform: translate(-2.5em, 0);
+    }
+}
+.leg-1, .leg-3 {
+    animation:  run-2 0.4s infinite linear;
+}
+@keyframes run-2 {
+    65% {
+        transform: translateY(0);
+    }
+    66% {
+        transform: translateY(-2.5em);
+    }
+}
 @media screen and (min-width: 700px) {
     body {
         font-size: 18px;
