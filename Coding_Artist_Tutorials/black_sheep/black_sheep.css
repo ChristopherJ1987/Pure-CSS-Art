@@ -141,6 +141,12 @@ body {
         -5.62em 5.62em 0 -5.62em #0c333f,
         5.62em -5.62em 0 -5.62em #0c333f,
         5.62em 5.62em 0 -5.62em #0c333f;
+    animation: body-shake 0.4s infinite linear;
+    }
+@keyframes body-shake {
+    50% {
+        transform: translateY(0.62em);
+    }
 }
 .leg {
     position: absolute;
