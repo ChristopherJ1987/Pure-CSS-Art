@@ -24,3 +24,13 @@
     top: 18.75em;
     border-radius: 6.25em;
 }
+.cloud:before {
+    content: "";
+    position: absolute;
+    height: 10.62em;
+    width: 10.62em;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    bottom: 1.87em;
+    left: 2.5em;
+}
