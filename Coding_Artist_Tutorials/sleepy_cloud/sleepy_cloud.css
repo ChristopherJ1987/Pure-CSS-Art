@@ -34,3 +34,14 @@
     bottom: 1.87em;
     left: 2.5em;
 }
+.cloud:after {
+    content: "";
+    position: absolute;
+    height: 6.25em;
+    width: 6.25em;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    bottom: 3.75em;
+    right: 3.12em;
+    z-index: -1;
+}
