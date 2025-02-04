@@ -45,3 +45,14 @@
     right: 3.12em;
     z-index: -1;
 }
+.moon {
+    background-color: #787470;
+    height: 9.37em;
+    width: 9.37em;
+    border-radius: 50%;
+    position: absolute;
+    right: 5em;
+    top: 11.25em;
+    overflow: hidden;
+    z-index: -2;
+}
