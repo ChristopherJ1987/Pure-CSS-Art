@@ -55,4 +55,23 @@
     top: 11.25em;
     overflow: hidden;
     z-index: -2;
+    animation: spin-moon 5s infinite linear;
+}
+@keyframes spin-moon {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.moon:before {
+    content: "";
+    position: absolute;
+    height: 1.87em;
+    width: 1.87em;
+    background-color: #565350;
+    border-radius: 50%;
+    top: 1.87em;
+    box-shadow: 5.62em 3.12em 0 0.75em #565350,
+        2.18em 4.68em 0 -0.3em #565350,
+        6.25em -1.87em 0 -0.18em #565350,
+        3.43em 0.3em 0 -0.5em #565350;
 }
