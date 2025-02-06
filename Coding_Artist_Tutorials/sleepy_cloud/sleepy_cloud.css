@@ -75,3 +75,12 @@
         6.25em -1.87em 0 -0.18em #565350,
         3.43em 0.3em 0 -0.5em #565350;
 }
+.blush {
+    height: 2.62em;
+    width: 2.62em;
+    background-color: #c9c9c9;
+    border-radius: 50%;
+    position: absolute;
+    left: 5em;
+    box-shadow: 6.87em 0 #c9c9c9;
+}
