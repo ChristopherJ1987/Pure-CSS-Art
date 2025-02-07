@@ -84,3 +84,10 @@
     left: 5em;
     box-shadow: 6.87em 0 #c9c9c9;
 }
+.eye-l, .eye-r {
+    position: absolute;
+    height: 1.25em;
+    width: 2.12em;
+    background-color: #363636;
+    border-radius: 0 0 0.93em 0.93em;
+}
