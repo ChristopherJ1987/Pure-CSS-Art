@@ -106,3 +106,13 @@
     border-radius: 0 0 0.93em 0.93em;
     left: 0.43em;
 }
+.mouth {
+    height: 1.25em;
+    width: 1.25em;
+    background-color: #363636;
+    border-radius: 50%;
+    position: absolute;
+    left: 9.68em;
+    top: 1.56em;
+    animation: snore 3s infinite;
+}
