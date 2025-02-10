@@ -116,3 +116,8 @@
     top: 1.56em;
     animation: snore 3s infinite;
 }
+@keyframes snore {
+    50% {
+        transform: scale(1.3);
+    }
+}
