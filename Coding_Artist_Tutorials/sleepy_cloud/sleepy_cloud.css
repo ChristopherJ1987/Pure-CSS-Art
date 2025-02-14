@@ -166,3 +166,8 @@
     left: 28.75em;
     top: 11.87em;
 }
+@media screen and (max-width: 500px) {
+    .container {
+        font-size: 12px;
+    }
+}
