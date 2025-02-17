@@ -14,3 +14,16 @@ body {
     box-shadow: 0 15px 45px rgba(95, 71, 0, 0.35);
     z-index: -2;
 }
+.magikarp {
+    background-color: #e50027;
+    height: 130px;
+    width: 80px;
+    border-radius: 80px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 10px solid #c1001f;
+}
