@@ -27,3 +27,14 @@ body {
     right: 0;
     border: 10px solid #c1001f;
 }
+.fin-top {
+    background-color: #ffcc33;
+    height: 50px;
+    width: 17px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -50px;
+    z-index: -1;
+}
