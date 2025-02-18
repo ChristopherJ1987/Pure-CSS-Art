@@ -38,3 +38,14 @@ body {
     top: -50px;
     z-index: -1;
 }
+.fin-top:before {
+    content: "";
+    position: absolute;
+    background-color: #ffcc33;
+    height: 50px;
+    width: 17px;
+    top: 5px;
+    transform: rotate(30deg);
+    transform-origin: bottom;
+    border-radius: 15px;
+}
