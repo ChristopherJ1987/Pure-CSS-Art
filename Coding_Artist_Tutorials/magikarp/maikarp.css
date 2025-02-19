@@ -37,6 +37,7 @@ body {
     right: 0;
     top: -50px;
     z-index: -1;
+    border-radius: 17px;
 }
 .fin-top:before {
     content: "";
@@ -47,5 +48,14 @@ body {
     top: 5px;
     transform: rotate(30deg);
     transform-origin: bottom;
-    border-radius: 15px;
+    border-radius: 17px;
+}
+.fin-top:after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 17px;
+    border-radius: 17px;
+    top: 5px;
+    transform-origin: bottom;
 }
