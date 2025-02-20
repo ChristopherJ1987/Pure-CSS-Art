@@ -39,23 +39,19 @@ body {
     z-index: -1;
     border-radius: 17px;
 }
-.fin-top:before {
+.fin-top:before, .fin-top:after {
     content: "";
     position: absolute;
     background-color: #ffcc33;
     height: 50px;
     width: 17px;
     top: 5px;
-    transform: rotate(30deg);
     transform-origin: bottom;
     border-radius: 17px;
 }
+.fin-top:before {
+    transform: rotate(30deg);
+}
 .fin-top:after {
-    content: "";
-    position: absolute;
-    height: 50px;
-    width: 17px;
-    border-radius: 17px;
-    top: 5px;
-    transform-origin: bottom;
+    transform: rotate(-30deg);
 }
