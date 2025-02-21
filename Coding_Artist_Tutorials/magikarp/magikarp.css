@@ -55,3 +55,16 @@ body {
 .fin-top:after {
     transform: rotate(-30deg);
 }
+.fin-bottom {
+    background-color: #ffcc33;
+    height: 50px;
+    width: 17px;
+    border-radius: 17px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 130px;
+    z-index: -1;
+    transform: rotate(180deg);
+}
