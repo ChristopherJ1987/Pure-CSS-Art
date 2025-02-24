@@ -84,3 +84,22 @@ body {
 .fin-bottom:after {
     transform: rotate(-30deg);
 }
+.gill-left {
+    width: 40px;
+    height: 6px;
+    background-color: #c1001f;
+    position: absolute;
+    left: -45px;
+    top: 65px;
+    border-radius: 6px;
+}
+.gill-left:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    background-color: #c1001f;
+    border-radius: 6px;
+    transform: rotate(45deg);
+    transform-origin: right;
+}
