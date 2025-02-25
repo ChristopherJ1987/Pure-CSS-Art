@@ -93,13 +93,18 @@ body {
     top: 65px;
     border-radius: 6px;
 }
-.gill-left:before {
+.gill-left:before, .gill-left:after {
     content: "";
     position: absolute;
     width: 40px;
     height: 6px;
     background-color: #c1001f;
     border-radius: 6px;
-    transform: rotate(45deg);
     transform-origin: right;
+}
+.gill-left:before {
+    transform: rotate(45deg);
+}
+.gill-left:after {
+    transform: rotate(-45deg);
 }
