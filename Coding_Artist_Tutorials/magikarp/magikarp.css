@@ -117,3 +117,12 @@ body {
     top: 65px;
     border-radius: 6px;
 }
+.gill-right:before, .gill-right:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    background-color: #c1001f;
+    border-radius: 6px;
+    transform-origin: left;
+}
