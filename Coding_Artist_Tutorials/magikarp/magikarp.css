@@ -126,3 +126,9 @@ body {
     border-radius: 6px;
     transform-origin: left;
 }
+.gill-right:before {
+    transform: rotate(45deg);
+}
+.gill-right:after {
+    transform: rotate(-45deg);
+}
