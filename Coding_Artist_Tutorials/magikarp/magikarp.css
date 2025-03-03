@@ -132,3 +132,16 @@ body {
 .gill-right:after {
     transform: rotate(-45deg);
 }
+.gill1 {
+    background-color: #ffb3be;
+    height: 40px;
+    width: 40px;
+    border-radius: 0 0 040px;
+    transform: rotate(45deg);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: -6px;
+    z-index: -2;
+}
