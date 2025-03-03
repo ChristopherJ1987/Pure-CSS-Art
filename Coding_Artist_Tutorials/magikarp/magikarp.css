@@ -132,16 +132,21 @@ body {
 .gill-right:after {
     transform: rotate(-45deg);
 }
-.gill1 {
+.gill1, .gill2 {
     background-color: #ffb3be;
     height: 40px;
     width: 40px;
-    border-radius: 0 0 040px;
-    transform: rotate(45deg);
+    border-radius: 0 0 0 40px;
     position: absolute;
     margin: auto;
     top: 0;
     bottom: 0;
-    left: -6px;
     z-index: -2;
+}
+.gill1 {
+    transform: rotate(45deg);
+    left: -6px;
+}
+.gill2 {
+    transform: rotate(225deg);
 }
