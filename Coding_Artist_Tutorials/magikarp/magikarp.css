@@ -160,3 +160,12 @@ body {
     left: -2px;
     top: 43px;
 }
+.eye:before {
+    content: "";
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    background-color: #303030;
+    left: 63px;
+    border-radius: 50%;
+}
