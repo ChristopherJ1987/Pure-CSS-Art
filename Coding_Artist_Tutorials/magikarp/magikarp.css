@@ -149,4 +149,14 @@ body {
 }
 .gill2 {
     transform: rotate(225deg);
+    right: -6px;
+}
+.eye {
+    height: 23px;
+    width: 23px;
+    background-color: #303030;
+    border-radius: 50%;
+    position: absolute;
+    left: -2px;
+    top: 43px;
 }
