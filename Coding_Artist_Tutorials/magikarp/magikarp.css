@@ -169,3 +169,15 @@ body {
     left: 63px;
     border-radius: 50%;
 }
+.mouth {
+    height: 36px;
+    width: 19px;
+    background-color: rgba(193, 0, 31, 0.5);
+    border: 7px solid #ffb3be;
+    border-radius: 30px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 40px;
+}
