@@ -181,3 +181,20 @@ body {
     right: 0;
     top: 40px;
 }
+.moustache-left, .moustache-right {
+    height: 40px;
+    width: 10px;
+    border: 6px solid #ffcc33;
+    border-radius: 20px 0 0 0;
+    border-right: none;
+    border-bottom: none;
+    position: absolute;
+    top: 80px;
+}
+.moustache-left {
+    left: -5px;
+}
+.moustache-right {
+    right: -5px;
+    transform: rotateY(180deg);
+}
