@@ -24,3 +24,13 @@ body {
     top: 100px;
     right: 78px;
 }
+.chameleon:before {
+    content: "";
+    background-color: #bdf052;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    border-radius: 50px 50px 0 0;
+}
