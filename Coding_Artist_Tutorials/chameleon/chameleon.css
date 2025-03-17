@@ -44,3 +44,14 @@ body {
     bottom: 0;
     border-radius: 30px 0 35px 0;
 }
+.tail {
+    height: 100px;
+    width: 100px;
+    box-shadow: -20px -5px 0 #bdf052;
+    border-radius: 50%;
+    position: absolute;
+    left: -67px;
+    top: 13px;
+    transform: rotate(-55deg);
+    z-index: -3;
+}
