@@ -55,3 +55,14 @@ body {
     transform: rotate(-55deg);
     z-index: -3;
 }
+.eye {
+    background-color: #262626;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0.5px 0.5px 0 1px #fdbf00,
+        5px 5px 0 8px #77dd00;
+    top: 12px;
+    left: 10px;
+}
