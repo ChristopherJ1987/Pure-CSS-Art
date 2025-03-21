@@ -77,3 +77,14 @@ body {
     box-shadow: 46px 0 0 0 #77dd00;
     z-index: 2;
 }
+.leg:after {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 6px;
+    background-color: #77dd00;
+    bottom: -11px;
+    right: 0;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 46px 0 0 #77dd00;
+}
