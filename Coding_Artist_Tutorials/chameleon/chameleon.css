@@ -88,3 +88,13 @@ body {
     border-radius: 0 0 5px 5px;
     box-shadow: 46px 0 0 #77dd00;
 }
+.branch {
+    z-index: -1;
+    background-color: #53433f;
+    height: 20px;
+    width: 220px;
+    position: absolute;
+    bottom: -16px;
+    right: -40px;
+    border-radius: 0 10px 10px 0;
+}
