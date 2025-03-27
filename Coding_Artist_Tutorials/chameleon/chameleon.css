@@ -108,3 +108,14 @@ body {
     right: -5px;
     top: 17px;
 }
+.branch:after {
+    content: "";
+    background-color: #ff9100;
+    height: 20px;
+    width: 25px;
+    position: absolute;
+    border-radius: 0 35px;
+    right: 4px;
+    top: 21.5px;
+    transform: rotate(40deg);
+}
