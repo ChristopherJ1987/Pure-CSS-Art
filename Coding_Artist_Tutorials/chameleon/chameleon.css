@@ -98,3 +98,13 @@ body {
     right: -40px;
     border-radius: 0 10px 10px 0;
 }
+.branch:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 25px;
+    background-color: #fdbf00;
+    border-radius: 0 35px;
+    right: -5px;
+    top: 17px;
+}
