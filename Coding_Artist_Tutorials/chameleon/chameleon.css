@@ -119,3 +119,11 @@ body {
     top: 21.5px;
     transform: rotate(40deg);
 }
+.wrapper:after {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
