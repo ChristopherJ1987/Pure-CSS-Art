@@ -24,3 +24,14 @@ body {
     border-radius: 11.87em;
     box-shadow: inset 4.37em 0 rgba(39, 158, 92, 0.5);
 }
+.zombie:before {
+    content: "";
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    background-color: #83c65d;
+    border-radius: 50%;
+    top: 7.18em;
+    left: 6.87em;
+    box-shadow: -3.75em -2.18em 0 0.62em #83c65d, -2.5em 2.81em 0 0.31em #83c65d;
+}
