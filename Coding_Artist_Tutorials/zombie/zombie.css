@@ -17,3 +17,10 @@ body {
     height: 37.5em;
     border: 1px solid #ffffff;
 }
+.zombie {
+    background-color: #75bc83;
+    height: 32.5em;
+    width: 23.75em;
+    border-radius: 11.87em;
+    box-shadow: inset 4.37em 0 rgba(39, 158, 92, 0.5);
+}
