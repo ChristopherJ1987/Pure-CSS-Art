@@ -35,3 +35,13 @@ body {
     left: 6.87em;
     box-shadow: -3.75em -2.18em 0 0.62em #83c65d, -2.5em 2.81em 0 0.31em #83c65d;
 }
+.brains {
+    height: 15em;
+    width: 15em;
+    background-color: #5b2d80;
+    position: absolute;
+    right: -3.12em;
+    top: -5em;
+    border-radius: 50%;
+    overflow: hidden;
+}
