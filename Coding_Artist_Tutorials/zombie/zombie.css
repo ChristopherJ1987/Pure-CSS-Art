@@ -45,3 +45,14 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
+.brains:before {
+    content: "";
+    position: absolute;
+    background-color: #f96eb3;
+    height: 15.62em;
+    width: 15.62em;
+    border-radius: 50%;
+    top: 5.62em;
+    right: 4.37em;
+    box-shadow: inset 9em -8.12em #d83a6f;
+}
