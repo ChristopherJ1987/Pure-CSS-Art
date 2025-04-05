@@ -69,3 +69,8 @@ body {
     left: 6.25em;
     box-shadow: 6.87em 6.87em #2a2d49;
 }
+.eyes:before {
+    content: "";
+    transform: rotate(90deg);
+    box-shadow: 6.87em -6.87em #2a2d49;
+}
