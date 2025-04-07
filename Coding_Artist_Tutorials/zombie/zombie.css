@@ -56,7 +56,7 @@ body {
     right: 4.37em;
     box-shadow: inset 9em -8.12em #d83a6f;
 }
-.eyes, .eye:before {
+.eyes, .eyes:before {
     position: absolute;
     height: 6.25em;
     width: 1.87em;
@@ -73,4 +73,14 @@ body {
     content: "";
     transform: rotate(90deg);
     box-shadow: 6.87em -6.87em #2a2d49;
+}
+.mouth {
+    position: absolute;
+    background-color: #2a2d49;
+    height: 5em;
+    width: 10.62em;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 22.5em;
+    border-radius: 3.12em 3.12em 0 0;
 }
