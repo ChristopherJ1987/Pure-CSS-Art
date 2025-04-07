@@ -84,3 +84,15 @@ body {
     top: 22.5em;
     border-radius: 3.12em 3.12em 0 0;
 }
+.mouth:before {
+    content: "";
+    position: absolute;
+    height: 3.43em;
+    width: 7.5em;
+    background-color: #f96eb3;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    border-radius: 3.43em 3.43em 0 0;
+    box-shadow: inset 3.12em 0.62em #d83a6f;
+}
