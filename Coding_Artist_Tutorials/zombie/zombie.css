@@ -106,3 +106,9 @@ body {
     right: 1.56em;
     border-radius: 0 0 1.56em 1.56em;
 }
+.ear {
+    height: 7.5em;
+    width: 31.25em;
+    background-color: #279e5c;
+    border-radius: 6.25em;
+}
