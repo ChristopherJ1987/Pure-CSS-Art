@@ -96,3 +96,13 @@ body {
     border-radius: 3.43em 3.43em 0 0;
     box-shadow: inset 3.12em 0.62em #d83a6f;
 }
+.mouth:after {
+    content: "";
+    position: absolute;
+    height: 2.5em;
+    width: 1.875em;
+    background-color: #f96eb3;
+    bottom: -2.5em;
+    right: 1.56em;
+    border-radius: 0 0 1.56em 1.56em;
+}
