@@ -15,7 +15,6 @@ body {
 .container {
     width: 37.5em;
     height: 37.5em;
-    border: 1px solid #ffffff;
 }
 .zombie {
     background-color: #75bc83;
@@ -120,4 +119,13 @@ body {
     border-radius: 2.5em 2.5em 0 0;
     border: 0.9em solid #0c843d;
     border-bottom: none;
+    top: 2.5em;
+}
+.ear:before {
+    transform: rotate(45deg);
+    left: 0.93em;
+}
+.ear:after {
+    transform: rotate(-45deg);
+    right: 0.93em;
 }
