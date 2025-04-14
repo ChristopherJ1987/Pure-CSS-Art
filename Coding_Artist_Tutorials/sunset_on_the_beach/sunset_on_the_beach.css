@@ -17,3 +17,19 @@ body {
     );
     background-repeat: repeat;
 }
+.waves:before {
+    content: "";
+    position: absolute;
+    background-color: #2d90af;
+    height: 30px;
+    width: 100vw;
+    bottom: -30px;
+}
+.sand {
+    background-color: #efbd4a;
+    height: 58px;
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 100% 0 0;
+}
