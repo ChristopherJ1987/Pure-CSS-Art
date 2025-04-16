@@ -46,3 +46,12 @@ body {
     left: -360px;
     z-index: -1;
 }
+.tree > div:nth-child(1) {
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    right: 75px;
+    border-radius: 50%;
+    border-top: 40px solid #736d31;
+    transform: rotate(-60deg);
+}
