@@ -55,3 +55,22 @@ body {
     border-top: 40px solid #736d31;
     transform: rotate(-60deg);
 }
+.tree > div:nth-child(2) {
+    height: 100px;
+    width: 130px;
+    position: absolute;
+    border-top: 40px solid #736d31;
+    right: 10px;
+    top: -90px;
+    transform: rotate(-65deg);
+    border-radius: 50%;
+}
+.tree > div:nth-child(3) {
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    border-top: 40px solid #736d31;
+    right: 50px;
+    border-radius: 50%;
+    transform: rotate(-70deg);
+}
