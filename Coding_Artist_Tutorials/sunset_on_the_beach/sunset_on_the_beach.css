@@ -84,3 +84,13 @@ body {
     border-radius: 120px 120px 0 0;
     transform: rotate(10deg);
 }
+.tree > div:nth-child(5) {
+    background-color: #736d31;
+    height: 45px;
+    width: 90px;
+    position: absolute;
+    top: 40px;
+    right: 71px;
+    transform: rotate(-110deg);
+    border-radius: 120px 120px 0 0;
+}
