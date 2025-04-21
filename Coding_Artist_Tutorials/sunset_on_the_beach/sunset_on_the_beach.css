@@ -103,3 +103,16 @@ body {
     right: 110px;
     border-radius: 50%;
 }
+.sun {
+    background-color: orange;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 320px;
+    z-index: -2;
+    animation: sunset 8s linear forwards;
+}
