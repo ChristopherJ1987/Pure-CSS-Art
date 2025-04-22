@@ -116,3 +116,8 @@ body {
     z-index: -2;
     animation: sunset 8s linear forwards;
 }
+@keyframes sunset {
+    100% {
+        transform: translateY(480px);
+    }
+}
