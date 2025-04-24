@@ -32,6 +32,12 @@ body {
         #2d90af 18px
     );
     background-repeat: repeat;
+    animation: waves 10s infinite forwards linear;
+}
+@keyframes waves {
+    100% {
+        transform: translateX(200px);
+    }
 }
 .waves:before {
     content: "";
@@ -133,6 +139,6 @@ body {
 }
 @keyframes sunset {
     100% {
-        transform: translateY(480px);
+        transform: translateY(580px);
     }
 }
