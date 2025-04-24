@@ -3,7 +3,22 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden;
+    animation: sky 8s linear forwards;
 }
+@keyframes sky {
+    20% {
+        background-color: #a0d0d1;
+    }
+    50% {
+        background-color: #fff9a3;
+    }
+    70% {
+        background-color: #cb8389;
+    }
+    100% {
+        background-color: #57416d;
+    }
+} 
 .waves {
     position: absolute;
     left: 0;
