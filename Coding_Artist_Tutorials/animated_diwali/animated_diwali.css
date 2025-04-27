@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #190547;
+    background-size: 3em 3em;
+    background-image: radial-gradient(
+        transparent 1.25em,
+        #3b2a62 1.25em,
+        #3b2a62 1.5em,
+        transparent 1.5em
+    ),
+    radial-gradient(
+        transparent 1.25em,
+        #3b2a62 1.25em,
+        #3b2a62 1.5em,
+        transparent 1.5em
+    );
+    background-position: 0 0, 1.5em 1.5em;
+}
