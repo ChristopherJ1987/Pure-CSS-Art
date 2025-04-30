@@ -47,3 +47,10 @@ body {
     border-radius: 50%;
     position: absolute;
 }
+.lights-1 {
+    left: 13.43em;
+    top: 1.25em;
+    box-shadow: 0 24.37em #432286,
+    11.87em 11.87em #432286,
+    -11.87em 11.87em #432286;
+}
