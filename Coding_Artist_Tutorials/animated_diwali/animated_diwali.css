@@ -53,4 +53,12 @@ body {
     box-shadow: 0 24.37em #432286,
     11.87em 11.87em #432286,
     -11.87em 11.87em #432286;
+    animation: lights-blink-1 2s infinite;
+}
+.lights-2 {
+    left: 5.31em;
+    top: 5.31em;
+    box-shadow: 16.25em 0 #432286,
+    0 16.25em #432286,
+    16.25em 16.25em #432286;
 }
