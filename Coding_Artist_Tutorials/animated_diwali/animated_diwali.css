@@ -83,3 +83,23 @@ body {
     16.25em 16.25em #432286;
     animation: lights-blink-2 2s 1s infinite;
 }
+@keyframes lights-blink-2 {
+    49% {
+        background-color: #432286;
+        box-shadow: 16.25em 0 #432286,
+        0 16.25em #432286,
+        16.25em 16.25em #432286;
+    }
+    50% {
+        background-color: #f4c631;
+        box-shadow: 16.25em 0 #f4c631,
+        0 16.25em #f4c631,
+        16.25em 16.25em #f4c631;
+    }
+    100% {
+        background-color: #f4c631;
+        box-shadow: 16.25em 0 #f4c631,
+        0 16.25em #f4c631,
+        16.25em 16.25em #f4c631;
+    }
+}
