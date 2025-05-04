@@ -103,3 +103,23 @@ body {
         16.25em 16.25em #f4c631;
     }
 }
+.wishes {
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    font-family: "Courgette", cursive;
+    font-size: 3.75em;
+    line-height: 1.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+    animation: wishes-scale-up 2s 3s forwards;
+}
+@keyframes wishes-scale-up {
+    100% {
+        transform: scale(1);
+    }
+}
