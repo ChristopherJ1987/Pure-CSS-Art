@@ -123,3 +123,12 @@ body {
         transform: scale(1);
     }
 }
+.diya-container {
+    height: 25em;
+    width: 25em;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: calc(50% + 4.68em);
+    left: calc(50% + 9.37em);
+}
