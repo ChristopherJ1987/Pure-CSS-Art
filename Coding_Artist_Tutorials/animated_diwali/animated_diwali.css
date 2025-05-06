@@ -23,7 +23,6 @@ body {
 .container {
     height: 100vh;
     width: 37.5em;
-    border: 1px solid whitesmoke;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -130,5 +129,18 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
     top: calc(50% + 4.68em);
-    left: calc(50% + 9.37em);
+    left: calc(50% + 7em);
+}
+.diya {
+    height: 9.37em;
+    width: 18.37em;
+    background-color: #e53760;
+    border-radius: 0 0 9.37em 9.37em;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* overflow: hidden; */
+    box-shadow: 0 0 2.18em rgba(14, 2, 40, 0.4);
 }
