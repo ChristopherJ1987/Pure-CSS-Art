@@ -155,3 +155,16 @@ body {
     right: 0;
     bottom: 7.5em;
 }
+.flame {
+    height: 10.62em;
+    width: 10.62em;
+    background-color: #fdf1c2;
+    border-radius: 10em 0;
+    transform: rotate(-45deg);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 2.25em;
+    animation: scale-up 2s infinite;
+}
