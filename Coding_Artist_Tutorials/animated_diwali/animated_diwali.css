@@ -168,3 +168,9 @@ body {
     bottom: 2.25em;
     animation: scale-up 2s infinite;
 }
+@keyframes scale-up {
+    50% {
+        transform: rotate(-45deg) scale(1.05);
+        bottom: 2.62em;
+    }
+}
