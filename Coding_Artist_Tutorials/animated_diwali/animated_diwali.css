@@ -174,3 +174,11 @@ body {
         bottom: 2.62em;
     }
 }
+.flame:after {
+    content: "";
+    position: absolute;
+    height: 7.5em;
+    background-color: #f4c631;
+    border-radius: 7.5em 0;
+    bottom: 0;
+}
