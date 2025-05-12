@@ -182,3 +182,12 @@ body {
     border-radius: 7.5em 0;
     bottom: 0;
 }
+.line-1, .line-2 {
+    position: absolute;
+    height: 3.75em;
+    width: 20em;
+    border: none;
+    border-bottom: 0.5em solid whitesmoke;
+    border-radius: 50%;
+    left: -0.62em;
+}
