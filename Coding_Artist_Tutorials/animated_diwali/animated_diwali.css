@@ -125,11 +125,10 @@ body {
 .diya-container {
     height: 25em;
     width: 25em;
-    border: 1px solid whitesmoke;
     position: absolute;
     transform: translate(-50%, -50%);
     top: calc(50% + 4.68em);
-    left: calc(50% + 7em);
+    left: calc(50% + 9.37em);
 }
 .diya {
     height: 9.37em;
@@ -141,7 +140,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     box-shadow: 0 0 2.18em rgba(14, 2, 40, 0.4);
 }
 .inside {
@@ -178,6 +177,7 @@ body {
     content: "";
     position: absolute;
     height: 7.5em;
+    width: 7.5em;
     background-color: #f4c631;
     border-radius: 7.5em 0;
     bottom: 0;
@@ -189,5 +189,18 @@ body {
     border: none;
     border-bottom: 0.5em solid whitesmoke;
     border-radius: 50%;
+    left: -0.62em;
+}
+.line-2 {
+    top: 3.75em;
+}
+.dots {
+    position: absolute;
+    height: 3.75em;
+    width: 20em;
+    border: none;
+    border-bottom: 0.62em dotted #f4c631;
+    border-radius: 50%;
+    top: 1.87em;
     left: -0.62em;
 }
