@@ -27,3 +27,11 @@ body {
     top: 5.31em;
     z-index: -1;
 }
+.container:after {
+    position: absolute;
+    content: "";
+    background-color: #f6bd26;
+    height: 5.62em;
+    width: 100%;
+    top: 30.5em;
+}
