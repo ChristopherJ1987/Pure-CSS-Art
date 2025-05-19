@@ -35,3 +35,20 @@ body {
     width: 100%;
     top: 30.5em;
 }
+.cup {
+    height: 15.62em;
+    width: 11.87em;
+    background: linear-gradient(
+        to top,
+        #8c5b33 30%,
+        #b5a581 30%,
+        #b58581 80%,
+        #8c5b33 80%
+    );
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 15.62em;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    overflow: hidden;
+}
