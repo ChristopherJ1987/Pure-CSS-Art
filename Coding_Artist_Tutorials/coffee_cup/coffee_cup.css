@@ -52,3 +52,10 @@ body {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
     overflow: hidden;
 }
+.cup:after {
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 17.5em;
+    width: 6.25em;
+}
