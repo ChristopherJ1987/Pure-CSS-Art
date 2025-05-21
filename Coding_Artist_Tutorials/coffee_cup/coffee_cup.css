@@ -59,3 +59,16 @@ body {
     height: 17.5em;
     width: 6.25em;
 }
+.heart {
+    background-color: #cd4036;
+    height: 2.5em;
+    width: 2.5em;
+    position: absolute;
+    margin: auto;
+    left: 0.62em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: rotate(45deg);
+    border-radius: 0 0 0.62em 0;
+}
