@@ -72,3 +72,11 @@ body {
     transform: rotate(45deg);
     border-radius: 0 0 0.62em 0;
 }
+.heart:before, .heart:after {
+    position: absolute;
+    content: "";
+    height: 60%;
+    width: 100%;
+    background-color: #cd4036;
+    border-radius: 4.68em 4.68em 0 0;
+}
