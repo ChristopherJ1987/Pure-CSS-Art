@@ -80,3 +80,11 @@ body {
     background-color: #cd4036;
     border-radius: 4.68em 4.68em 0 0;
 }
+.heart:before {
+    top: -59%;
+}
+.heart:after {
+    transform: rotate(-90deg);
+    right: 78%;
+    top: 20%;
+}
