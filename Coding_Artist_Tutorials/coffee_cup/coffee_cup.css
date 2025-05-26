@@ -109,3 +109,14 @@ body {
     left: 50%;
     border-radius: 0.3em 0 0 0;
 }
+.lid:after {
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 1.56em;
+    bottom: 2.5em;
+    border-bottom: 1.87em solid #4e2919;
+    border-left: 5em solid transparent;
+    left: 5.93em;
+    z-index: -1;
+}
