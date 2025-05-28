@@ -130,3 +130,14 @@ body {
     left: 19.37em;
     box-shadow: -6.25em -4.37em #fbeebf;
 }
+.steam:before {
+    position: absolute;
+    content: "";
+    height: 0.75em;
+    width: 5em;
+    border-radius: 0.5em;
+    background-color: #fbeebf;
+    bottom: 0.5em;
+    left: -3.12em;
+    box-shadow: 1.25em -1.25em #fbeebf, -0.93em -1.87em #fbeebf;
+}
