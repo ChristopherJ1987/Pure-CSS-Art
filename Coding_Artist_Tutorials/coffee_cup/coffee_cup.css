@@ -141,3 +141,13 @@ body {
     left: -3.12em;
     box-shadow: 1.25em -1.25em #fbeebf, -0.93em -1.87em #fbeebf;
 }
+.steam:after {
+    position: absolute;
+    content: "";
+    height: 0.75em;
+    width: 8.75em;
+    border-radius: 0.5em;
+    background-color: #fbeebf;
+    bottom: 1.12em;
+    left: -8.75em;
+}
