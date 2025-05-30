@@ -151,3 +151,12 @@ body {
     bottom: 1.12em;
     left: -8.75em;
 }
+.base {
+    position: absolute;
+    height: 0.5em;
+    width: 21.87em;
+    background-color: #93480b;
+    border-radius: 0.3em;
+    top: 30em;
+    left: 1.25em;
+}
