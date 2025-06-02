@@ -160,3 +160,12 @@ body {
     top: 30em;
     left: 1.25em;
 }
+.base:before {
+    position: absolute;
+    content: "";
+    height: 0.5em;
+    width: 3.12em;
+    background-color: #93480b;
+    left: 23.75em;
+    border-radius: 0.3em;
+}
