@@ -169,3 +169,8 @@ body {
     left: 23.75em;
     border-radius: 0.3em;
 }
+@media screen and (min-width: 700px) {
+    .container {
+        font-size: 20px;
+    }
+}
