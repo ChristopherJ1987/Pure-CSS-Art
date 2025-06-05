@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #5385c4;
+}
+.base {
+    background-color: #012338;
+    height: 16.87em;
+    width: 18.75em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
