@@ -14,3 +14,11 @@ body {
     bottom: 0;
     right: 0;
 }
+.base:after {
+    content: "";
+    position: absolute;
+    background-color: #093245;
+    height: 0.62em;
+    width: 20.62em;
+    right: 0;
+}
