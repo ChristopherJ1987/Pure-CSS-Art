@@ -22,3 +22,12 @@ body {
     width: 20.62em;
     right: 0;
 }
+.batman {
+    background-color: #093341;
+    width: 6.87em;
+    height: 4.37em;
+    position: absolute;
+    border-radius: 1.87em 0 0 0;
+    left: 24.06em;
+    top: 13.12em;
+}
