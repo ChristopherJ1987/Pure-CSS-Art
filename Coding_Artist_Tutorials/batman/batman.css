@@ -31,3 +31,11 @@ body {
     left: 24.06em;
     top: 13.12em;
 }
+.batman:before {
+    position: absolute;
+    content: "";
+    border-bottom: 2.5em solid #093341;
+    border-left: 1.87em solid transparent;
+    bottom: 4.25em;
+    right: 0;
+}
