@@ -39,3 +39,12 @@ body {
     bottom: 4.25em;
     right: 0;
 }
+.batman:after {
+    position: absolute;
+    content: "";
+    border-bottom: 2.5em solid #000700;
+    border-left: 1.87em solid transparent;
+    bottom: 4.25em;
+    right: 3.12em;
+    z-index: -1;
+}
