@@ -48,3 +48,11 @@ body {
     right: 3.12em;
     z-index: -1;
 }
+.mouth {
+    position: absolute;
+    background-color: #fcac92;
+    height: 1.25em;
+    width: 5.62em;
+    border-radius: 0 1.25em 0.31em 0;
+    bottom: 0.62em;
+}
