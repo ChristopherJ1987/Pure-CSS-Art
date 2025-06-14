@@ -76,3 +76,16 @@ body {
     left: 0.87em;
     box-shadow: 2.37em 0 #fffdfe;
 }
+.costume {
+    height: 0.93em;
+    width: 9.37em;
+    background: linear-gradient(
+        to right,
+        #0e0e0e 3.12em,
+        #01578a 3.12em
+    );
+    position: absolute;
+    top: 4.37em;
+    left: -0.62em;
+    border-radius: 0 1.25em 0 0;
+}
