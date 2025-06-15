@@ -89,3 +89,14 @@ body {
     left: -0.62em;
     border-radius: 0 1.25em 0 0;
 }
+.costume:before {
+    background-color: #0e0e0e;
+    content: "";
+    position: absolute;
+    height: 3.12em;
+    width: 3.12em;
+    border-radius: 0.62em;
+    top: 0.62em;
+    transform: rotate(45deg);
+    left: -0.62em;
+}
