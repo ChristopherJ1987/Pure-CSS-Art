@@ -100,3 +100,12 @@ body {
     transform: rotate(45deg);
     left: -0.62em;
 }
+.costume:after {
+    background-color: #0a3442;
+    content: "";
+    position: absolute;
+    height: 6.25em;
+    width: 5em;
+    top: 0.93em;
+    border-radius: 0 1.25em 0 0;
+}
