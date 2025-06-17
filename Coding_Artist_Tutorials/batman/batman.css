@@ -109,3 +109,12 @@ body {
     top: 0.93em;
     border-radius: 0 1.25em 0 0;
 }
+.belt {
+    position: absolute;
+    background-color: #ffc638;
+    height: 1.25em;
+    width: 5.31em;
+    border-radius: 0.31em 0 0 0.31em;
+    top: 8.75em;
+    left: -0.93em;
+}
