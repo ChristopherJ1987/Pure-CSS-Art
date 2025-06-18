@@ -118,3 +118,13 @@ body {
     top: 8.75em;
     left: -0.93em;
 }
+.belt:before {
+    content: "";
+    position: absolute;
+    background-color: #01578a;
+    width: 5.31em;
+    height: 8.75em;
+    top: -4.37em;
+    left: 4.37em;
+    border-radius: 0 1.25em 0 3.75em;
+}
