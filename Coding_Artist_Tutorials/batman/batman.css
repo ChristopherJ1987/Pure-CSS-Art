@@ -128,3 +128,12 @@ body {
     left: 4.37em;
     border-radius: 0 1.25em 0 3.75em;
 }
+.cape {
+    position: absolute;
+    background-color: #01578a;
+    width: 10em;
+    height: 3.75em;
+    right: 6.25em;
+    top: 4.37em;
+    border-radius: 0 0 0 2.5em;
+}
