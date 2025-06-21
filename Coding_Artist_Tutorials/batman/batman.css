@@ -147,3 +147,11 @@ body {
     left: 3.12em;
     border-radius: 0 0 0 3.12em;
 }
+.leg {
+    position: absolute;
+    height: 3.75em;
+    width: 2.81em;
+    background-color: #0e0e0e;
+    top: 10em;
+    box-shadow: 4.37em 0 #0a3442;
+}
