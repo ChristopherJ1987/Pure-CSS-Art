@@ -19,3 +19,13 @@ body {
     left: 50%;
     top: 17.5em;
 }
+.ears {
+    position: absolute;
+    height: 4.37em;
+    width: 23.75em;
+    background-color: #e59076;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 18.75em;
+    border-radius: 3.12em;
+}
