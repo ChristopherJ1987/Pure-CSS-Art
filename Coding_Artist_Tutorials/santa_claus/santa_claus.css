@@ -29,3 +29,14 @@ body {
     top: 18.75em;
     border-radius: 3.12em;
 }
+.santa:before {
+    content: "";
+    position: absolute;
+    height: 1.56em;
+    width: 1.56em;
+    background-color: #0c2137;
+    border-radius: 50%;
+    top: 2.5em;
+    left: 5em;
+    box-shadow: 6.25em 0 #0c2137;
+}
