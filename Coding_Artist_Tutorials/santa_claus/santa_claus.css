@@ -40,3 +40,12 @@ body {
     left: 5em;
     box-shadow: 6.25em 0 #0c2137;
 }
+.moustache {
+    position: absolute;
+    height: 4.37em;
+    width: 11.25em;
+    background-color: #e3e1ed;
+    left: -2.81em;
+    top: 5em;
+    border-radius: 3.12em 0;
+}
