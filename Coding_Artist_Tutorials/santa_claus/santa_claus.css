@@ -49,3 +49,12 @@ body {
     top: 5em;
     border-radius: 3.12em 0;
 }
+.moustache:before {
+    content: "";
+    position: absolute;
+    height: 4.37em;
+    width: 11.25em;
+    background-color: #e3e1ed;
+    left: 11.25em;
+    border-radius: 0 3.12em;
+}
