@@ -58,3 +58,13 @@ body {
     left: 11.25em;
     border-radius: 0 3.12em;
 }
+.beard {
+    background-color: #bfc2e0;
+    height: 15.62em;
+    width: 6.25em;
+    border-radius: 6.87em;
+    position: absolute;
+    top: 21.25em;
+    left: 25em;
+    box-shadow: -18.75em 0 #bfc2e0;
+}
