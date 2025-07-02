@@ -68,3 +68,14 @@ body {
     left: 25em;
     box-shadow: -18.75em 0 #bfc2e0;
 }
+.beard:before {
+    content: "";
+    position: absolute;
+    background-color: #d4d2e8;
+    height: 17.5em;
+    width: 6.87em;
+    border-radius: 6.87em;
+    top: 1.87em;
+    right: 5em;
+    box-shadow: -8.75em 0 #d4d2e8;
+}
