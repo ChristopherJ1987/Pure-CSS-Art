@@ -79,3 +79,13 @@ body {
     right: 5em;
     box-shadow: -8.75em 0 #d4d2e8;
 }
+.beard:after {
+    content: "";
+    background-color: #e3e1ed;
+    height: 20.62em;
+    width: 6.25em;
+    border-radius: 6.87em;
+    position: absolute;
+    top: 3.12em;
+    right: 9.68em;
+}
