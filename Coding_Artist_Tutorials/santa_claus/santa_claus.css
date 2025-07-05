@@ -99,3 +99,13 @@ body {
     border-radius: 0 0 4.37em 4.37em;
     overflow: hidden;
 }
+.mouth:before {
+    content: "";
+    position: absolute;
+    background-color: #ea385f;
+    height: 2.81em;
+    width: 3.43em;
+    top: 3.43em;
+    left: -0.62em;
+    border-radius: 0.62em;
+}
