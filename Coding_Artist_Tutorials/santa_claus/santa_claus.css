@@ -89,3 +89,13 @@ body {
     top: 3.12em;
     right: 9.68em;
 }
+.mouth {
+    height: 5.62em;
+    width: 4.37em;
+    background: linear-gradient(#ffffff 1.87em, #0c2137 1.87em);
+    position: absolute;
+    top: 23.75em;
+    left: 16.25em;
+    border-radius: 0 0 4.37em 4.37em;
+    overflow: hidden;
+}
