@@ -109,3 +109,13 @@ body {
     left: -0.62em;
     border-radius: 0.62em;
 }
+.hair {
+    height: 5em;
+    width: 23.12em;
+    background-color: #c3c1df;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 15em;
+    border-radius: 5em;
+}
