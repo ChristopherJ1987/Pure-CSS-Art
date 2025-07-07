@@ -119,3 +119,13 @@ body {
     top: 15em;
     border-radius: 5em;
 }
+.hair:before {
+    content: "";
+    position: absolute;
+    width: 25.62em;
+    background-color: #d2d3e6;
+    height: 6.25em;
+    left: -1.25em;
+    bottom: 2.5em;
+    border-radius: 1.25em;
+}
