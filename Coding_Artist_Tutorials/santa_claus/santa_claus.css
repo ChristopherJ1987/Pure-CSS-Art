@@ -138,3 +138,12 @@ body {
     bottom: 8.75em;
     border-radius: 16.25em 0 0 0;
 }
+.hat {
+    position: absolute;
+    background-color: #c82a50;
+    height: 6.25em;
+    width: 3.12em;
+    left: 30.81em;
+    top: 1.25em;
+    border-radius: 0 2.5em 0 0;
+}
