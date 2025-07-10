@@ -1,19 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #060034;
 }
 .container {
-    height: 46.87em;
+    height: 46.875em;
     width: 37.5em;
-    border: 1px solid whitesmoke;
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 50%;
     top: 50%;
+    left: 50%;
 }
 .santa {
     background-color: #edbb93;
     height: 6.25em;
-    width: 8.75em;
+    width: 18.75em;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
@@ -45,7 +49,7 @@ body {
     height: 4.37em;
     width: 11.25em;
     background-color: #e3e1ed;
-    left: -2.81em;
+    left: -1.81em;
     top: 5em;
     border-radius: 3.12em 0;
 }
@@ -146,4 +150,14 @@ body {
     left: 30.81em;
     top: 1.25em;
     border-radius: 0 2.5em 0 0;
+}
+.hat:before {
+    content: "";
+    position: absolute;
+    background-color: #e1e0ec;
+    height: 11.25em;
+    width: 11.25em;
+    top: 4.37em;
+    left: -2.87em;
+    border-radius: 50%;
 }
