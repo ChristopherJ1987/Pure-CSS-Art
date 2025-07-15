@@ -15,3 +15,20 @@ body {
     top: 50%;
     left: 50%;
 }
+.shell {
+    position: absolute;
+    height: 10.62em;
+    width: 17.5em;
+    background-image: radial-gradient(
+        #9b4a2a 40%,
+        transparent 40%
+    ),
+    radial-gradient(#833825 40%,
+    transparent 40%);
+    background-color: #703225;
+    background-position: 0 0, 5em 5em;
+    background-size: 10em 10em;
+    border-radius: 50% 50% 10% 10% / 75% 75% 10% 10%;
+    top: 9.37em;
+    left: 4.37em;
+}
