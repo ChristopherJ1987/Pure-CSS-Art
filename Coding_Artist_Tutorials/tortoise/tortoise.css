@@ -32,3 +32,13 @@ body {
     top: 9.37em;
     left: 4.37em;
 }
+.shell:before {
+    content: "";
+    position: absolute;
+    height: 4.37em;
+    width: 4.37em;
+    background-color: #005f37;
+    border-radius: 4.37em 4.37em 0 0;
+    bottom: 0;
+    right: 0;
+}
