@@ -51,3 +51,12 @@ body {
     left: 14.06em;
     left: 7.5em;
 }
+.neck:before {
+    content: "";
+    position: absolute;
+    height: 1.25em;
+    width: 4.37em;
+    background-color: #009f40;
+    top: -1.18em;
+    left: 3.12em;
+}
