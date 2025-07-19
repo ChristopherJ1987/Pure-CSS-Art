@@ -60,3 +60,13 @@ body {
     top: -1.18em;
     left: 3.12em;
 }
+.neck:after {
+    content: "";
+    position: absolute;
+    height: 5.62em;
+    width: 5.62em;
+    background-color: #009f40;
+    bottom: 4.87em;
+    left: 3.12em;
+    border-radius: 2.5em 2.5em 1.87em 0;
+}
