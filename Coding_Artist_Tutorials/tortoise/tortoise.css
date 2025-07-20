@@ -70,3 +70,17 @@ body {
     left: 3.12em;
     border-radius: 2.5em 2.5em 1.87em 0;
 }
+.belt {
+    background: linear-gradient(
+        to right,
+        #e9a100 30%,
+        #e77702 30%,
+        #e77702 90%,
+        #e9a100 90%
+    );
+    height: 1.25em;
+    width: 5em;
+    position: absolute;
+    top: 6.56em;
+    left: 16.87em;
+}
