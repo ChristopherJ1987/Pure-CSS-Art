@@ -84,3 +84,10 @@ body {
     top: 6.56em;
     left: 16.87em;
 }
+.leg {
+    background-color: #009f40;
+    height: 4.37em;
+    width: 2.5em;
+    position: absolute;
+    border-radius: 1.25em 1.25em 0 0;
+}
