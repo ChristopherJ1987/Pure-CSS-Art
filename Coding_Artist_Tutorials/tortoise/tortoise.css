@@ -91,3 +91,14 @@ body {
     position: absolute;
     border-radius: 1.25em 1.25em 0 0;
 }
+.leg:before {
+    content: "";
+    height: 1.25em;
+    width: 0.93em;
+    position: absolute;
+    background-color: #d5cd8e;
+    bottom: -0.06em;
+    left: -0.06em;
+    border-radius: 0.62em 0.62em 0 0;
+    box-shadow: 0.87em 0 #d5cd8e;
+}
