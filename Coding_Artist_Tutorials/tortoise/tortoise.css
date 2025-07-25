@@ -90,6 +90,7 @@ body {
     width: 2.5em;
     position: absolute;
     border-radius: 1.25em 1.25em 0 0;
+    top: 18.75em;
 }
 .leg:before {
     content: "";
@@ -114,4 +115,8 @@ body {
     background-color: #005f37;
     top: 18.75em;
     left: 9.37em;
+}
+.leg-4 {
+    background-color: #005f37;
+    left: 20em;
 }
