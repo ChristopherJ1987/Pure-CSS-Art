@@ -128,8 +128,8 @@ body {
     top: 3.12em;
     left: 18.75em;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .container {
-        font: 1.2em;
+        font: 1.4em;
     }
 }
