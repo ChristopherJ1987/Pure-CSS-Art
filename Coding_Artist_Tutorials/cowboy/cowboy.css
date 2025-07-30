@@ -6,3 +6,8 @@
 body {
     background-color: #79311f;
 }
+.center {
+    margin: auto;
+    left: 0;
+    right: 0;
+}
