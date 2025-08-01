@@ -20,3 +20,11 @@ body {
     top: 50%;
     left: 50%;
 }
+.cowboy {
+    background-color: #f4b596;
+    height: 7.5em;
+    width: 9.37em;
+    border-radius: 0 0 1em 1em;
+    position: absolute;
+    top: 9.37em;
+}
