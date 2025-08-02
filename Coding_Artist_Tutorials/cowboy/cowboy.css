@@ -28,3 +28,11 @@ body {
     position: absolute;
     top: 9.37em;
 }
+.ear {
+    height: 1.87em;
+    width: 11.87em;
+    background-color: #f4b596;
+    border-radius: 1em;
+    position: absolute;
+    top: 12.18em;
+}
