@@ -36,3 +36,15 @@ body {
     position: absolute;
     top: 12.18em;
 }
+.ear:before {
+    content: "";
+    position: absolute;
+    height: 1.25em;
+    width: 10.93em;
+    background-color: #ec7177;
+    border-radius: 1em;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0.34em;
+}
