@@ -48,3 +48,11 @@ body {
     right: 0;
     top: 0.34em;
 }
+.hair {
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-top: 0.95em solid #000000;
+    border-left: 0.95em solid transparent;
+    border-right: 0.95em solid transparent;
+}
