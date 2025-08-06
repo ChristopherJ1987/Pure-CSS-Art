@@ -56,3 +56,11 @@ body {
     border-left: 0.95em solid transparent;
     border-right: 0.95em solid transparent;
 }
+.hair:before, .hair:after {
+    content: "";
+    position: absolute;
+    height: 1.56em;
+    width: 1.56em;
+    background-color: #000000;
+    top: -0.93em;
+}
