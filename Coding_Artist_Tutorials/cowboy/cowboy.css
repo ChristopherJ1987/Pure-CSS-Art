@@ -62,5 +62,13 @@ body {
     height: 1.56em;
     width: 1.56em;
     background-color: #000000;
-    top: -0.93em;
+    top: -0.96em;
+}
+.hair:before {
+    left: -4.68em;
+    border-radius: 0 0 1.56em 0;
+}
+.hair:after {
+    left: 3.12em;
+    border-radius: 0 0 0 1.56em;
 }
