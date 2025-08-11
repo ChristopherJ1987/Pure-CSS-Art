@@ -93,3 +93,9 @@ body {
     left: -3.12em;
     box-shadow: 5em 0 #ec7177;
 }
+.moustache, .moustache:before {
+    position: absolute;
+    height: 1.87em;
+    width: 1.87em;
+    background-color: #000000;
+}
