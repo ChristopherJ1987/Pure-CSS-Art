@@ -99,3 +99,8 @@ body {
     width: 1.87em;
     background-color: #000000;
 }
+.moustache {
+    border-radius: 1.87em 0;
+    top: 2.5em;
+    left: -1.87em;
+}
