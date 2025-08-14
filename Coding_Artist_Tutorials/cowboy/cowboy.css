@@ -109,3 +109,11 @@ body {
     border-radius: 0 1.87em;
     left: 1.75em;
 }
+.hat {
+    position: absolute;
+    height: 1.56em;
+    width: 15em;
+    background-color: #b35230;
+    top: -1.56em;
+    left: -2.81em;
+}
