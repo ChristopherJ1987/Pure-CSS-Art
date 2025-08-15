@@ -117,3 +117,9 @@ body {
     top: -1.56em;
     left: -2.81em;
 }
+.hat:before {
+    content: "";
+    position: absolute;
+    height: 3.12em;
+    
+}
