@@ -121,5 +121,8 @@ body {
     content: "";
     position: absolute;
     height: 3.12em;
-    
+    width: 1.56em;
+    background-color: #b35230;
+    bottom: 0;
+    border-radius: 0.93em 0.93em 0 0;
 }
