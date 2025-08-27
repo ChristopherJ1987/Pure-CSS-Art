@@ -125,4 +125,16 @@ body {
     background-color: #b35230;
     bottom: 0;
     border-radius: 0.93em 0.93em 0 0;
+    box-shadow: 13.43em 0 #b35230;
+}
+.hat:after {
+    content: "";
+    position: absolute;
+    width: 4.37em;
+    width: 6.87em;
+    background-color: #b35230;
+    left: 3.12em;
+    bottom: 0;
+    border-radius: 2.5em 2.5em 0 0;
+    box-shadow: 4.31em 0 #b35230;
 }
