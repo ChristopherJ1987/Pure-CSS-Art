@@ -154,3 +154,16 @@ body {
     border: .5em solid #eaa419;
     left: 3.12em;
 }
+.jacket {
+    position: absolute;
+    height: 5.62em;
+    width: 6.25em;
+    background: linear-gradient(
+        to right,
+        #000000 33%,
+        #ffffff 33%,
+        #ffffff 66%,
+        #000000 66%
+    );
+    top: 8.75em;
+}
