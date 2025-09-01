@@ -167,3 +167,13 @@ body {
     );
     top: 8.75em;
 }
+.jacket:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 1.87em solid #df2535;
+    border-left: 1.87em solid transparent;
+    border-right: 1.87em solid transparent;
+    left: 1.25em;
+}
