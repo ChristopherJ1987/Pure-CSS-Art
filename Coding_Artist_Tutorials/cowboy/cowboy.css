@@ -177,3 +177,14 @@ body {
     border-right: 1.87em solid transparent;
     left: 1.25em;
 }
+.jacket:after {
+    content: "";
+    position: absolute;
+    height: 1.25em;
+    width: 3.75em;
+    background-color: #f4b596;
+    top: -1.25em;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
