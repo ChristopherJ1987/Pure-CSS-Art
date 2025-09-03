@@ -188,3 +188,11 @@ body {
     left: 0;
     right: 0;
 }
+.jacket-bottom {
+    width: 80%;
+    height: 1.25em;
+    background-color: #ffffff;
+    position: absolute;
+    left: 10%;
+    bottom: -1.25em;
+}
