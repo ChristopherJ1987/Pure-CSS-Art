@@ -196,3 +196,14 @@ body {
     left: 10%;
     bottom: -1.25em;
 }
+.jacket-bottom:before {
+    content: "";
+    position: absolute;
+    height: 0.93em;
+    width: 0.93em;
+    background-color: #eaa419;
+    border-radius: 50%;
+    left: 4.06;
+    top: -3.75em;
+    box-shadow: -5.31em -15.62em #79311f;
+}
