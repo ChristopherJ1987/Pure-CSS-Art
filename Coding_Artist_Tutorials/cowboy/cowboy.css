@@ -15,7 +15,6 @@ body {
     position: absolute;
     width: 21.87em;
     height: 25em;
-    border: 1px solid whitesmoke;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -206,4 +205,9 @@ body {
     left: 4.06;
     top: -3.75em;
     box-shadow: -5.31em -15.62em #79311f;
+}
+@media screen and (min-width: 800px) {
+    .container {
+        font-size: 1.4em;
+    }
 }
