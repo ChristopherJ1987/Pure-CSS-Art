@@ -15,3 +15,13 @@ body {
     left: 50%;
     top: 50%;
 }
+.dog {
+    width: 16.25em;
+    height: 6.25em;
+    background-color: #ee9728;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: calc(50% + 3.12em);
+    border-radius: 0 3.75em 0 6.25em;
+}
