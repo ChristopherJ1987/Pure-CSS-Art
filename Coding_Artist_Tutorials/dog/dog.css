@@ -35,3 +35,28 @@ body {
     left: calc(50% + 3.12em);
     border-radius: 0 3.75em 0 6.25em;
 }
+.leg-1, .leg-3 {
+    width: 2.5em;
+    height: 3.43em;
+    position: absolute;
+}
+.leg-1 {
+    left: 14.18em;
+    top: 18.12em;
+    background-color: #e55627;
+}
+.leg-3 {
+    top: 5.62em;
+    left: 5em;
+    background-color: #ee9728;
+}
+.leg-1:before, .leg-1:after {
+    content: "";
+    position: absolute;
+    background-color: #e55627;
+}
+.leg-3:before, .leg-3:after {
+    content: "";
+    position: absolute;
+    background-color: #ee9728;
+}
