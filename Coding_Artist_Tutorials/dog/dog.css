@@ -25,3 +25,13 @@ body {
     left: calc(50% + 3.12em);
     border-radius: 0 3.75em 0 6.25em;
 }
+.dog-bottom {
+    position: absolute;
+    width: 16.25em;
+    height: 7.5em;
+    background-color: #e97833;
+    transform: translate(-50%, -50%);
+    top: calc(50% + 1.25em);
+    left: calc(50% + 3.12em);
+    border-radius: 0 3.75em 0 6.25em;
+}
