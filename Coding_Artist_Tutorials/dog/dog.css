@@ -60,3 +60,16 @@ body {
     position: absolute;
     background-color: #ee9728;
 }
+.leg-1:before, .leg-3:before {
+    height: 0.37em;
+    width: 1.56em;
+    right: 0;
+    bottom: -0.31em;
+}
+.leg-1:after, .leg-3:after {
+    height: 1.25em;
+    width: 2.5em;
+    right: 0;
+    bottom: -1.5em;
+    border-radius: 1.25em 0 0 0;
+}
