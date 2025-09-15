@@ -39,6 +39,7 @@ body {
     width: 2.5em;
     height: 3.43em;
     position: absolute;
+    border-radius: 0 0 0 0.93em;
 }
 .leg-1 {
     left: 14.18em;
