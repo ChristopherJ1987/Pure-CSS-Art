@@ -80,3 +80,13 @@ body {
     position: absolute;
     border-radius: 0 0 0 2.18em;
 }
+.leg-2 {
+    background-color: #e55627;
+    left: 21.56em;
+    top: 18.12em;
+}
+.leg-4 {
+    background-color: #ee9728;
+    left: 12.5em;
+    top: 5.62em;
+}
