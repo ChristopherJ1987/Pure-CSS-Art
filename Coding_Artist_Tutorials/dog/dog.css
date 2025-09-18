@@ -90,3 +90,13 @@ body {
     left: 12.5em;
     top: 5.62em;
 }
+.leg-4:before, .leg-4:after {
+    background-color: #ee9728;
+    position: absolute;
+    content: "";
+}
+.leg-2:before, .leg-2:after {
+    background-color: #e55627;
+    position: absolute;
+    content: "";
+}
