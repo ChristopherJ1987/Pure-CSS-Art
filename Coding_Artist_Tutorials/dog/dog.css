@@ -122,3 +122,10 @@ body {
     top: 8.75em;
     border-radius: 1.25em 0 0 0;
 }
+.neck {
+    width: 6.25em;
+    height: 1.87em;
+    background-color: #ee9728;
+    position: absolute;
+    top: -1.87em;
+}
