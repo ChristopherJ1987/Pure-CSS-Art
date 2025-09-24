@@ -129,3 +129,13 @@ body {
     position: absolute;
     top: -1.87em;
 }
+.neck:before {
+    content: "";
+    position: absolute;
+    width: 6.87em;
+    height: 0.62em;
+    background-color: #5184bf;
+    border: 0.37em solid #2e5296;
+    left: -0.62em;
+    top: 0.62em;
+}
