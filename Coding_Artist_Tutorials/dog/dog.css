@@ -157,3 +157,12 @@ body {
     border-radius: 0 0 3.12em 3.12em;
     right: 0;
 }
+.face:after {
+    position: absolute;
+    content: "";
+    height: 0.93em;
+    width: 1.87em;
+    background-color: #000000;
+    border-radius: 0 0 0.93em 0.93em;
+    left: -0.43em;
+}
