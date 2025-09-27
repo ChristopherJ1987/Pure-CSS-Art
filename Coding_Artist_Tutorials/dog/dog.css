@@ -138,7 +138,8 @@ body {
     border: 0.37em solid #2e5296;
     left: -0.62em;
     top: 0.62em;
-}.face {
+}
+.face {
     background-color: #ee9728;
     width: 10em;
     height: 4.37em;
@@ -146,4 +147,13 @@ body {
     left: -3.75em;
     bottom: 7.81em;
     border-radius: 0 0 0 4.37em;
+}
+.face:before {
+    position: absolute;
+    content: "";
+    height: 3.12em;
+    width: 6.25em;
+    background-color: #cd2126;
+    border-radius: 0 0 3.12em 3.12em;
+    right: 0;
 }
