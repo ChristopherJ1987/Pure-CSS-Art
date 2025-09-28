@@ -166,3 +166,9 @@ body {
     border-radius: 0 0 0.93em 0.93em;
     left: -0.43em;
 }
+.ear, .ear:after {
+    position: absolute;
+    height: 2.5em;
+    width: 1.56em;
+    border-radius: 1.56em 0 0 0;
+}
