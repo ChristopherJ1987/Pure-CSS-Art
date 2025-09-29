@@ -172,3 +172,8 @@ body {
     width: 1.56em;
     border-radius: 1.56em 0 0 0;
 }
+.ear {
+    background-color: #ee9728;
+    bottom: 4.37em;
+    right: 1.25em;
+}
