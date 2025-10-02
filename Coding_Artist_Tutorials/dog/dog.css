@@ -191,3 +191,8 @@ body {
     top: 3.12em;
     left: -1.25em;
 }
+@media screen and (min-width: 800px) {
+    .container {
+        font-size: 1.4em;
+    }
+}
