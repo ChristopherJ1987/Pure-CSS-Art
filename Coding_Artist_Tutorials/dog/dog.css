@@ -177,3 +177,8 @@ body {
     bottom: 4.37em;
     right: 1.25em;
 }
+.ear:after {
+    content: "";
+    background-color: #cd2126;
+    right: -1.25em;
+}
