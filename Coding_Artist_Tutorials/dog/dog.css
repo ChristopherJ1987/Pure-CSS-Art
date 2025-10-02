@@ -99,7 +99,7 @@ body {
     position: absolute;
     content: "";
 }
-.leg-2:before, .lef-4:before {
+.leg-2:before, .leg-4:before {
     height: 0.37em;
     width: 1.56em;
     right: 0;
@@ -193,6 +193,6 @@ body {
 }
 @media screen and (min-width: 800px) {
     .container {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 }
