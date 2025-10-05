@@ -6,3 +6,12 @@
 body {
     background-color: #f5b400;
 }
+.container {
+    height: 31.25em;
+    width: 31.25em;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
