@@ -25,3 +25,13 @@ body {
     top: 18.75em;
     border-radius: 0 2.18em 0 0;
 }
+.cat:before {
+    content: "";
+    position: absolute;
+    height: 1.87em;
+    width: 1.75em;
+    background-color: #000000;
+    border-radius: 0 0 1.25em 1.25em;
+    bottom: -1.18em;
+    box-shadow: 3.75em 0 #000000, 7.18em 0 #000000, 10.75em 0 #000000;
+}
