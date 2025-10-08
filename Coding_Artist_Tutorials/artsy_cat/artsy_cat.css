@@ -35,3 +35,12 @@ body {
     bottom: -1.18em;
     box-shadow: 3.75em 0 #000000, 7.18em 0 #000000, 10.75em 0 #000000;
 }
+.cat:after{ 
+    content: "";
+    position: absolute;
+    height: 6.25em;
+    width: 7.5em;
+    background: linear-gradient(#f52d00 1.87em,
+    #000000 1.87em);
+    bottom: 4.93em;
+}
