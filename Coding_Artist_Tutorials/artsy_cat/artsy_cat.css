@@ -44,3 +44,12 @@ body {
     #000000 1.87em);
     bottom: 4.93em;
 }
+.face {
+    position: absolute;
+    background-color: #000000;
+    height: 7.5em;
+    width: 15em;
+    bottom: 11.18em;
+    left: -3.62em;
+    border-radius: 3.75em;
+}
