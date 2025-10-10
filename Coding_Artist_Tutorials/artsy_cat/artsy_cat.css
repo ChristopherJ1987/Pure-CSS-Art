@@ -53,3 +53,14 @@ body {
     left: -3.62em;
     border-radius: 3.75em;
 }
+.face:before {
+    content: "";
+    position: absolute;
+    height: 3.75em;
+    width: 5em;
+    background-color: #ffffff;
+    border-radius: 1.87em;
+    left: 1.87em;
+    top: 1.56em;
+    box-shadow: 6.25em 0 #ffffff;
+}
