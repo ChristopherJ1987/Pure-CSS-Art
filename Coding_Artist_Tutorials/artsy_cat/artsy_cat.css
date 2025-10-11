@@ -64,3 +64,14 @@ body {
     top: 1.56em;
     box-shadow: 6.25em 0 #ffffff;
 }
+.face:after {
+    content: "";
+    position: absolute;
+    height: 2.5em;
+    width: 1.56em;
+    background-color: #000000;
+    top: 2.18em;
+    left: 3.56em;
+    border-radius: 0.93em;
+    box-shadow: 6.25em 0 #000000;
+}
