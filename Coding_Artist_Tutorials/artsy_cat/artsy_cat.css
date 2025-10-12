@@ -75,3 +75,10 @@ body {
     border-radius: 0.93em;
     box-shadow: 6.25em 0 #000000;
 }
+.whiskers, .whiskers:before, .whiskers:after {
+    position: absolute;
+    height: 0.62em;
+    width: 18.75em;
+    background-color: #000000;
+    border-radius: 0.31em;
+}
