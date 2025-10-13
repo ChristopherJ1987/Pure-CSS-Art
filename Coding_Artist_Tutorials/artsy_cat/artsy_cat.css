@@ -82,3 +82,7 @@ body {
     background-color: #000000;
     border-radius: 0.31em;
 }
+.whiskers {
+    bottom: 15em;
+    left: -5.5em;
+}
