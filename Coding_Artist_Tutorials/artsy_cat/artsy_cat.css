@@ -86,3 +86,13 @@ body {
     bottom: 15em;
     left: -5.5em;
 }
+.whiskers:before {
+    content: "";
+    position: absolute;
+    transform: rotate(14deg);
+}
+.whiskers:after {
+    content: "";
+    position: absolute;
+    transform: rotate(-14deg);
+}
