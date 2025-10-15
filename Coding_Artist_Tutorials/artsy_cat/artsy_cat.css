@@ -96,3 +96,13 @@ body {
     position: absolute;
     transform: rotate(-14deg);
 }
+.ear-l {
+    height: 0;
+    width: 0;
+    border-bottom: 3.12em solid #000000;
+    border-left: 1.56em solid transparent;
+    border-right: 1.56em solid transparent;
+    position: absolute;
+    bottom: 7.37em;
+    left: 3.12em;
+}
