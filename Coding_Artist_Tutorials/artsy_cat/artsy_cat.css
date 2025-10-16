@@ -106,3 +106,14 @@ body {
     bottom: 7.37em;
     left: 3.12em;
 }
+.ear-l:before, .ear-r:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 1.37em solid #f52d00;
+    border-left: 0.75em solid transparent;
+    border-right: 0.75em solid transparent;
+    left: -0.68em;
+    top: 1.56em;
+}
