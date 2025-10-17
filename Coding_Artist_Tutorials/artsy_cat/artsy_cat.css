@@ -117,3 +117,13 @@ body {
     left: -0.68em;
     top: 1.56em;
 }
+.ear-r {
+    height: 0;
+    width: 0;
+    border-bottom: 3.12em solid #000000;
+    border-right: 1.56em solid transparent;
+    border-left: 1.56em solid transparent;
+    position: absolute;
+    bottom: 7.37em;
+    left: 8.75em;
+}
