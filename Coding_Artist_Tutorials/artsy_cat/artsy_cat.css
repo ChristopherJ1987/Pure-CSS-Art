@@ -127,3 +127,13 @@ body {
     bottom: 7.37em;
     left: 8.75em;
 }
+.tag {
+    position: absolute;
+    height: 1.87em;
+    width: 1.87em;
+    background-color: #f5b400;
+    border-radius: 50%;
+    z-index: 1;
+    bottom: 7.43em;
+    left: 2.81em;
+}
