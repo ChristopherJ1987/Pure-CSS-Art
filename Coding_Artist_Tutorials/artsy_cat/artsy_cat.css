@@ -137,3 +137,11 @@ body {
     bottom: 7.43em;
     left: 2.81em;
 }
+.tail {
+    width: 3.75em;
+    height: 1.25em;
+    background-color: #000000;
+    position: absolute;
+    left: 10.62em;
+    top: 1.87em;
+}
