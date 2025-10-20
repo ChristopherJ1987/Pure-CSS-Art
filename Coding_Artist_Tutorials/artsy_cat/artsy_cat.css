@@ -145,3 +145,10 @@ body {
     left: 10.62em;
     top: 1.87em;
 }
+.tail:before, .tail:after {
+    content: "";
+    position: absolute;
+    height: 1.87em;
+    width: 1.87em;
+    border: 1.25em solid #000000;
+}
