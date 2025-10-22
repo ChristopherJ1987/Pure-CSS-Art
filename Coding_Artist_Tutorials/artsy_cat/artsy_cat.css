@@ -158,3 +158,9 @@ body {
     left: 3.12em;
     border-radius: 0 3.12em 3.12em 0;
 }
+.tail:after {
+    border-right: none;
+    bottom: 3.12em;
+    left: 1.25em;
+    border-radius: 3.12em 0 0 3.12em;
+}
