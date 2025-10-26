@@ -10,4 +10,18 @@ body {
     height: 31.25em;
     width: 31.25em;
     border: 2px solid blueviolet;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.monster {
+    height: 18.75em;
+    width: 15.62em;
+    background-color: #b66750;
+    border-radius: 3.75em 3.75em 1.87em 1.87em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
 }
