@@ -25,3 +25,11 @@ body {
     left: 50%;
     top: 50%;
 }
+.monster:before, .monster:after {
+    content: "";
+    position: absolute;
+    height: 3.75em;
+    width: 1.25em;
+    background-color: #b66750;
+    border-radius: 0.62em;
+}
