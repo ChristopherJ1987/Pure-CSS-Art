@@ -33,3 +33,13 @@ body {
     background-color: #b66750;
     border-radius: 0.62em;
 }
+.monster:before {
+    top: -2.5em;
+    left: 6.56em;
+    transform: rotate(-15deg);
+}
+.monster:after {
+    top: -1.56em;
+    right: 6.56em;
+    transform: rotate(15deg);
+}
