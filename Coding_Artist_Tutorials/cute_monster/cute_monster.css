@@ -97,3 +97,14 @@ body {
         6.25em 0 #a85d46
     ;
 }
+.mouth {
+    position: absolute;
+    background-color: #a8193f;
+    height: 5em;
+    width: 7.5em;
+    top: 3.12em;
+    left: 3.9em;
+    top: 6.87em;
+    border-radius: 0.93em;
+    overflow: hidden;
+}
