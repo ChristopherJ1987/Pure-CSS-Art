@@ -117,3 +117,23 @@ body {
     border-radius: 2.5em 2.5em 0 0;
     bottom: 0;
 }
+.teeth {
+    position: absolute;
+    height: 2em;
+    width: 120%;
+    background: linear-gradient(
+        -45deg,
+        #ffffff 1.25em,
+        #ffffff 1.25em,
+        #ffffff 1.25em,
+        transparent 0
+    ),
+    linear-gradient(45deg,
+    #ffffff 1.25em,
+    transparent 0);
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-size: 2em 2em;
+    left: -0.31em;
+    bottom: 0;
+}
