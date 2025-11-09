@@ -137,3 +137,21 @@ body {
     left: -0.31em;
     bottom: 0;
 }
+.teeth:after {
+    content: "";
+    position: absolute;
+    height: 2em;
+    width: 120%;
+    background: linear-gradient(
+        -45deg transparent 1.25em,
+        #ffffff 0
+    ),
+    linear-gradient(45deg,
+    transparent 1.25em,
+    #ffffff 0);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 1.75em 2em;
+    top: -3.12em;
+    left: -0.31em;
+}
