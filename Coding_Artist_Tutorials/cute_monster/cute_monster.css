@@ -173,3 +173,13 @@ body {
         transform: rotate(-120deg);
     }
 }
+.hand-l:before {
+    content: "";
+    position: absolute;
+    height: 1.25em;
+    width: 1.25em;
+    background-color: #b66750;
+    border-radius: 50%;
+    bottom: 6.25em;
+    left: 3.43em;
+}
