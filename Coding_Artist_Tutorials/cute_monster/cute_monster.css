@@ -9,7 +9,6 @@ body {
 .container {
     height: 31.25em;
     width: 31.25em;
-    border: 2px solid blueviolet;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -193,4 +192,14 @@ body {
     top: 8.75em;
     transform-origin: 0 50%;
     transform: rotate(-40deg);
+}
+.leg {
+    position: absolute;
+    height: 4.37em;
+    width: 3.75em;
+    background-color: #b66750;
+    bottom: -4.37em;
+    left: 2.18em;
+    border-radius: 0 0 2.5em 2.5em;
+    box-shadow: 7.5em 0 #b66750;
 }
