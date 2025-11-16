@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(244, 241, 252);
+}
+.container {
+    height: 31.25em;
+    width: 31.25em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgb(237, 233, 252);
+}
