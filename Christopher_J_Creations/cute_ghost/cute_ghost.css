@@ -17,11 +17,49 @@ body {
     background-color: rgb(237, 233, 252);
 }
 .ghost {
-    height: 15.5em;
-    width: 15.5em;
+    width: 13.5em;
+    height: 13.5em;
     position: absolute;
     transform: translate(50%, 50%);
     background-color: rgb(255, 221, 224);
-    border: 2px solid black;
-    border-radius: 50%;
+    border: 0.5vmin solid black;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom: 0;
+    left: 2.5em;
+}
+.legs {
+    height: 6vmin;
+    width: 7.5vmin;
+    position: absolute;
+    border: 0.5vmin solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: #ffdcdf;
+    border-top: 0;
+    top: 13.2em;
+    left: -0.28em;
+    box-shadow: 4.45em 0 #ffdcdf, 8.85em 0 #ffdcdf;
+}
+.legs:before {
+    content: "";
+    height: 6vmin;
+    width: 6.75vmin;
+    position: absolute;
+    border: 0.5vmin solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    left: 4em;
+}
+.legs:after {
+    content: "";
+    height: 6vmin;
+    width: 7.15vmin;
+    position: absolute;
+    border: 0.5vmin solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    left: 8.5em;
 }
