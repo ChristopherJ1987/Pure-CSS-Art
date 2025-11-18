@@ -63,3 +63,24 @@ body {
     border-top: 0;
     left: 8.5em;
 }
+.eyes {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: #000;
+    border-radius: 50%;
+    top: 5.75em;
+    left: 2.8em;
+    box-shadow: 5.5em 0;
+}
+.eyes:before{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    left: .75em;
+    top: 0.2em;
+    box-shadow: 5em 0 white;
+}
