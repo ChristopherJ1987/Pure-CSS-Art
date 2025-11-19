@@ -84,3 +84,14 @@ body {
     top: 0.2em;
     box-shadow: 5em 0 white;
 }
+.mouth {
+    position: absolute;
+    width: 2em;
+    height: 1em;
+    border: 0.7vmin solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    top: 8.5em;
+    left: 5.55em;
+}
