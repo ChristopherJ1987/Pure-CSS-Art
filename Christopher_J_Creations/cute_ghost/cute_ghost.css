@@ -95,3 +95,23 @@ body {
     top: 8.5em;
     left: 5.55em;
 }
+.left-arm, .right-arm {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    border: 0.3em solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+}
+.left-arm {
+    top: 10em;
+    left: 3em;
+    transform: rotate(-45deg);
+}
+
+.right-arm {
+    top: 10em;
+    left: 8em;
+    transform: rotate(45deg);
+}
