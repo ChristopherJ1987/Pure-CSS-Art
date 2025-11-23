@@ -7,8 +7,8 @@ body {
     background-color: rgb(244, 241, 252);
 }
 .container {
-    height: 31.25em;
-    width: 31.25em;
+    height: 50vmin;
+    width: 50vmin;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -17,8 +17,8 @@ body {
     background-color: rgb(237, 233, 252);
 }
 .ghost {
-    width: 13.5em;
-    height: 13.5em;
+    width: 21.6vmin;
+    height: 21.6vmin;
     position: absolute;
     transform: translate(50%, 50%);
     background-color: rgb(255, 221, 224);
@@ -26,91 +26,72 @@ body {
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom: 0;
-    left: 2.5em;
+    left: 4vmin;
 }
 .legs {
-    height: 6vmin;
+    display: flex;
+    width: 21.6vmin;
+    position: absolute;
+    top: 32.3vmin;
+    left: 14.8vmin;
+}
+.legs div {
     width: 7.5vmin;
-    position: absolute;
-    border: 0.5vmin solid black;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    background-color: #ffdcdf;
-    border-top: 0;
-    top: 13.2em;
-    left: -0.28em;
-    box-shadow: 4.45em 0 #ffdcdf, 8.85em 0 #ffdcdf;
-}
-.legs:before {
-    content: "";
     height: 6vmin;
-    width: 6.75vmin;
-    position: absolute;
     border: 0.5vmin solid black;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-top: 0;
-    left: 4em;
-}
-.legs:after {
-    content: "";
-    height: 6vmin;
-    width: 7.15vmin;
-    position: absolute;
-    border: 0.5vmin solid black;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-top: 0;
-    left: 8.5em;
+    background: #FFDCDF;
 }
 .eyes {
     position: absolute;
-    width: 2em;
-    height: 2em;
+    width: 3.2vmin;
+    height: 3.2vmin;
     background: #000;
     border-radius: 50%;
-    top: 5.75em;
-    left: 2.8em;
-    box-shadow: 5.5em 0;
+    top: 9.2vmin;
+    left: 4.5vmin;
+    box-shadow: 8.8vmin 0;
 }
 .eyes:before{
     content: "";
     position: absolute;
     background: white;
-    width: 1em;
-    height: 1em;
+    width: 1.6vmin;
+    height: 1.6vmin;
     border-radius: 50%;
-    left: .75em;
-    top: 0.2em;
-    box-shadow: 5em 0 white;
+    left: 1.2vmin;
+    top: 0.3vmin;
+    box-shadow: 8vmin 0 white;
 }
 .mouth {
     position: absolute;
-    width: 2em;
-    height: 1em;
+    width: 3.2vmin;
+    height: 1.6vmin;
     border: 0.7vmin solid black;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-top: 0;
-    top: 8.5em;
-    left: 5.55em;
+    top: 13.6vmin;
+    left: 8.9vmin;
 }
 .left-arm, .right-arm {
     position: absolute;
-    width: 2em;
-    height: 2em;
-    border: 0.3em solid black;
+    width: 3.2vmin;
+    height: 3.2vmin;
+    border: 0.5vmin solid black;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-top: 0;
 }
 .left-arm {
-    top: 10em;
-    left: 3em;
+    top: 16vmin;
+    left: 4.8vmin;
     transform: rotate(-45deg);
 }
 .right-arm {
-    top: 10em;
-    left: 8em;
+    top: 16vmin;
+    left: 12.8vmin;
     transform: rotate(45deg);
 }
