@@ -33,3 +33,41 @@ body {
         cadetblue 20px,
         lightblue 50px);
 }
+.ribbon {
+    position: relative;
+    height: 23px;
+    width: 100%;
+    background-color: seagreen;
+    top: 49%;
+    border-radius: 5px;
+}
+.bow-left {
+    position: absolute;
+    top: 9.75em;
+    left: 3em;
+    border-style: solid;
+    border-width: 30px 0 30px 50px;
+    border-color: transparent transparent transparent lemonchiffon;
+    border-radius: 2.75em;
+}
+
+.bow-right {
+    position: absolute;
+    top: 9.75em;
+    right: 2.75em;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 50px 30px 0;
+    border-color: transparent lemonchiffon transparent transparent;
+    border-radius: 2.75em;
+}
+.knot {
+    position: absolute;
+    top: 9em;
+    left: 5.75em;
+    height: 5em;
+    width: 6em;
+    border-radius: 50%;
+    background-image: radial-gradient(lemonchiffon 15%, grey);
+}
