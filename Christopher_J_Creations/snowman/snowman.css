@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFAFA;
+}
+.container {
+    height: 50em;
+    width: 30em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    left: 50%;
+    top: 50%;
+}
