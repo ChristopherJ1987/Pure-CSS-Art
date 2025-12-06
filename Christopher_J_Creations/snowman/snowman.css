@@ -19,8 +19,29 @@ body {
     height: 16em;
     width: 19em;
     position: absolute;
-    top: 11em;
-    left: 5em;
-    background-color: blanchedalmond;
+    top: 10em;
+    left: 4.5em;
+    background-color: #f8f8f8;
     border-radius: 50%;
+    border: 2px solid black;
+}
+.eyebrow-left {
+    width: 6em;
+    height: 5em;
+    background-color: #0c0d12;
+    border-radius: 50%;
+    clip-path: polygon(48% 19%, 48% 24%, 33% 22%, 19% 33%, 19% 27%, 34% 16%);
+    position: absolute;
+    top: 5em;
+    left: 2em;
+}
+.eyebrow-right {
+    content: "";
+    position: absolute;
+    width: 6em;
+    height: 5em;
+    bottom: 5.25em;
+    left: 8.5em;
+    clip-path: polygon(52% 19%, 52% 24%, 67% 22%, 81% 33%, 81% 27%, 66% 16%);
+    background-color: #0c0d12;
 }
