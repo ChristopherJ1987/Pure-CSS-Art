@@ -45,3 +45,22 @@ body {
     clip-path: polygon(52% 19%, 52% 24%, 67% 22%, 81% 33%, 81% 27%, 66% 16%);
     background-color: #0c0d12;
 }
+.eyes {
+    height: 1.5em;
+    width: 1.25em;
+    border-radius: 50% / 70%;
+    position: absolute;
+    background-color: black;
+    top: 7em;
+    left: 3.5em;
+}
+.eyes:after {
+    content: "";
+    position: absolute;
+    height: 1.5em;
+    width: 1.25em;
+    border-radius: 50% / 60%;
+    background-color: black;
+    top: 0.5em;
+    left: 8em;
+}
