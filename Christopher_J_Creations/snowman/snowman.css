@@ -64,3 +64,15 @@ body {
     top: 0.5em;
     left: 8em;
 }
+.eyes:before {
+    content: "";
+    position: absolute;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    top: 0.25em;
+    left: 0.25em;
+    box-shadow: 8em 0.5em 0 0 whitesmoke;
+    z-index: 1;
+}
