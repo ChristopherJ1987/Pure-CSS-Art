@@ -76,3 +76,15 @@ body {
     box-shadow: 8em 0.5em 0 0 whitesmoke;
     z-index: 1;
 }
+.cheeks {
+    height: 2.5em;
+    width: 3em;
+    position: absolute;
+    top: 9em;
+    left: 2rem;
+    border-radius: 50%;
+    background-color: lightpink;
+    box-shadow: 9.5em 0.5em lightpink;
+    filter: blur(0.5em);
+    z-index: 0;
+}
