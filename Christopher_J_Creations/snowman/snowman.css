@@ -133,3 +133,13 @@ body {
     border-right: 1px solid #444;
     box-shadow: -5px -4px 5px rgba(0, 0, 0, 0.3) inset;
 }
+.mouth {
+    position: absolute;
+    height: 4em;
+    width: 7em;
+    top: 9.5em;
+    left: 4.5em;
+    border-radius: 50%;
+    border-bottom: 5px solid #444;
+    border-top: none;
+}
