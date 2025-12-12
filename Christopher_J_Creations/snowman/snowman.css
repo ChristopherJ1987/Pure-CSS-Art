@@ -90,16 +90,16 @@ body {
 }
 .carrot {
     position: absolute;
-    top: 8em;
-    left: 2em;
+    top: 8.75em;
+    left: 2.75em;
     z-index: 2;
     width: 2em;
     height: 6em;
     transform: rotate(7deg);
 }
 .carrot-top {
-    width: 6em;
-    height: 1.5em;
+    width: 5em;
+    height: 1em;
     position: absolute;
     border: 1px solid #444;
     border-bottom: none;
@@ -109,10 +109,10 @@ body {
     box-shadow: 0 0px 1px rgba(0, 0, 0, 0.3) inset;
 }
 .carrot-bottom {
-    width: 6em;
-    height: 1.5em;
+    width: 5em;
+    height: 1em;
     position: absolute;
-    top: 1.25em;
+    top: 1em;
     border: 1px solid #444;
     border-top: none;
     border-right: none;
@@ -123,10 +123,10 @@ body {
 .carrot-bottom:after {
     content: '';
     position: absolute;
-    top: -1.15em;
+    top: -1em;
     right: -0.25em;
     width: 0.5em;
-    height: 2.62em;
+    height: 2em;
     background-color: orangered;
     overflow: hidden;
     border-radius: 0 100% 100% 0;
